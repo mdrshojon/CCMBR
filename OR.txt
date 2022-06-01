@@ -1,0 +1,420 @@
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+
+//Page Object
+
+public class HomePageXPath {
+
+
+CALANDER
+
+ //div[@class='date-range-selector-input-container']
+ //div[@class='CalendarDay CalendarDay_1 CalendarDay__default CalendarDay__default_2 CalendarDay__firstDayOfWeek CalendarDay__firstDayOfWeek_3']
+ //div[@aria-label='Choose Sunday, May 1, 2022 as your start date']
+
+
+//HEADER
+
+    //Mass Logo Home Page
+    @FindBy(xpath = "//a[@aria-label='Navigate Home']")
+    WebElement massLogoHome1;
+
+    //Games Drop Down Menu
+    @FindBy(xpath = "//div[@aria-label='Games menu']")
+    WebElement gamesDropDown1;
+
+    //Draws and Instants
+    @FindBy(xpath = ("//div[@aria-label='Games menu'] /a[@href='/games/draw-and-instants']"))
+    WebElement drawsAndInstants1H;
+    //Pull Tabs
+    @FindBy(xpath = ("//div[@aria-label='Games menu'] /a[@href='/games/pull-tabs']"))
+    WebElement pullTabs1H;
+
+    //Charitable Games
+    @FindBy(xpath = ("//div[@aria-label='Games menu'] /a[@href='/games/charitable-games']"))
+    WebElement charitableGames1H;
+    //Season Tickets
+    @FindBy(xpath = ("//div[@aria-label='Games menu'] /a[@href='/games/season-tickets']"))
+    WebElement seasonTickets1H;
+
+
+
+    //Tools Drop Down Menu
+    @FindBy(xpath = "//div[@//div[@aria-label='Tools menu']']")
+    WebElement toolsDropDown1;
+
+    //Past Results
+    @FindBy(xpath = ("//div[@aria-label='Tools menu'] /a[@href='/tools/past-results']"))
+    WebElement pastResultsH1;
+
+    //Prizes Remaining
+    @FindBy(xpath = ("//div[@aria-label='Tools menu'] /a[@href='/tools/prizes-remaining']"))
+    WebElement winnersH1;
+    //Location Finder
+    @FindBy(xpath = ("//div[@aria-label='Tools menu'] /a[@href='/tools/location-finder']"))
+    WebElement locationFinderH1;
+    //Claim a Prize
+    @FindBy(xpath = ("//div[@aria-label='Tools menu'] /a[@href='/tools/claim-a-prize']"))
+    WebElement claimPrizeH1;
+    //Mobile App
+    @FindBy(xpath = ("//div[@aria-label='Tools menu'] /a[@href='/tools/mobile-app']"))
+    WebElement mobileAppH1;
+
+
+
+    //PromotionsHeaderTest Drop Down Menu
+    @FindBy(xpath = "//div[@aria-label='Promotions menu']")
+    WebElement promotionsDropDown1;
+    //Current PromotionsHeaderTest
+    @FindBy(xpath = ("//div[@aria-label='Promotions menu'] /a[@href='/promotions']"))
+    WebElement currentPromotionsH1;
+    //VIP Members
+    @FindBy(xpath = ("//div[@aria-label='Promotions menu'] /a[@href='/promotions/vip']"))
+    WebElement vipMembersH1;
+    //Second Chance
+    @FindBy(xpath = ("//div[@aria-label='Promotions menu'] /a[@href='/promotions/second-chance-vip']"))
+    WebElement secondChanceH1;
+
+
+    //About Drop Down Menu
+    @FindBy(xpath = "//div[@aria-label='About menu']")
+    //*[@id='mslc-web']/div/div[1]/div[1]/div/div/div[2]/div[4]
+    WebElement aboutDropDown1;
+    //The Lottery Drop Down Menu
+    @FindBy(xpath = ("//div[@aria-label='About menu']//div [@class='submenu-label']"))
+    WebElement theLotteryDropDownH1;
+
+    //Office Locations
+    @FindBy(xpath = ("//a[@href='/about/office-locations']"))
+    WebElement locationsH1;
+    //Employment Opportunities
+    @FindBy(xpath = ("//a[@href='/about/employment']"))
+    WebElement employmentH1;
+    //Commission Leadership
+    @FindBy(xpath = ("//a[@href='/about/commission']"))
+    WebElement commissionLeadershipH1;
+    //Commission Meetings
+    @FindBy(xpath = ("//a[@href='/about/commission/meeting-and-performance-management-history']"))
+    WebElement commissionMeetingsH1;
+    //Lottery History
+    @FindBy(xpath = ("//a[@href='/about/the-lottery/history']"))
+    WebElement historyH1;
+    //Public Records
+    @FindBy(xpath = ("//a[@href='/about/public-records']"))
+    WebElement recordsH1;
+    //Procurements
+    @FindBy(xpath = ("//a[@href='/about/the-lottery/procurement']"))
+    WebElement procurementsH1;
+
+
+    //Responsible Gaming
+    @FindBy(xpath = ("//a[@href='/about/responsible-gaming']"))
+    WebElement responsibleGamingH1;
+    //Winning Stories
+    @FindBy(xpath = ("bec"))
+    WebElement winningStoriesH1;
+    //News
+    @FindBy(xpath = ("//div[@aria-label='About menu'] /a[@href='/about/news']"))
+    WebElement newsH1;
+    //Becoming an Agent
+    @FindBy(xpath = ("//div[@aria-label='About menu'] /a[@href='/about/becoming-an-agent']"))
+    WebElement becomingAgentH1;
+    //Environmental Impact
+    @FindBy(xpath = ("//div[@aria-label='About menu'] /a[@href='/tools/mobile-app']"))
+    WebElement environmentalImpactH1;
+    //Supporting Communities
+    @FindBy(xpath = ("//div[@aria-label='About menu'] /a[@href='/about/support-communities']"))
+    WebElement supportingCommunitiesH1;
+
+
+
+    //Recent Tickets
+    @FindBy(xpath = "//a[@id='recent-tickets-nav-link']")
+    WebElement RecentTickets1;
+
+    // CAROUSEL
+    //Mega Millions Carousel
+    @FindBy(xpath = "//div[@class='header']/a[@href='games/draw-and-instants/mega-millions']")
+    WebElement megaMillCarousel1;
+
+    //Powerball Carousel
+    @FindBy(xpath = "//div[@class='header']/a[@href='/games/draw-and-instants/powerball']")
+    WebElement powerballCarousel1;
+
+    //Megabucks Doubler Carousel
+    @FindBy(xpath = "//div[@class='header']/a[@href='/games/draw-and-instants/megabucks-doubler']")
+    WebElement megabucksCarousel1;
+
+    //Mass Cash Carousel
+    @FindBy(xpath = "//div[@class='header']/a[@href='/games/draw-and-instants/mass-cash']")
+    WebElement massCashCarousel1;
+
+    //Lucky for Life Carousel
+    @FindBy(xpath = "//div[@class='header']/a[@href='/games/draw-and-instants/lucky-for-life']")
+    WebElement luckyForLifeCarousel1;
+
+    //The Numbers Game Carousel
+    @FindBy(xpath = "//div[@class='header']/a[@href='/games/draw-and-instants/the-numbers-game']")
+    WebElement numbersGameCarousel1;
+
+// DRAW RESULTS
+
+    //Keno
+    @FindBy(xpath = "//a[@aria-label='More info for Keno']")
+    WebElement kenoInfo1;
+
+    //All or Nothing
+    @FindBy(xpath = "//a[@aria-label='More info for All or Nothing']")
+    WebElement allOrNothingInfo1;
+
+    //The Numbers Game
+    @FindBy(xpath = "//a[@aria-label='More info for The Numbers Game']")
+    WebElement numbersGameInfo1;
+
+    //Mass Cash
+    @FindBy(xpath = "//a[@aria-label='More info for Mass Cash']")
+    WebElement massCashInfo1;
+
+    //Powerball
+    @FindBy(xpath = "")
+    WebElement powerballInfo1;
+
+    //Mega Millions
+    @FindBy(xpath = "//a[@aria-label='More info for Mega Millions']")
+    WebElement megaMillionsInfo1;
+
+    //Megabucks Doubler
+    @FindBy(xpath = "//a[@aria-label='More info for Megabucks Doubler']")
+    WebElement megaBucksDoublerInfo1;
+
+    //Lucky for Life
+    @FindBy(xpath = "//a[@aria-label='More info for Lucky for Life']")
+    WebElement luckyForLifeInfo1;
+
+
+//Bottom Slider
+
+    //New Instant Games
+    @FindBy(xpath = "//a[@href='/games/draw-and-instants?new_games_only=true']")
+    WebElement newInstantGames1;
+    //Loose Change
+    @FindBy(xpath =("//a[@class='cms-link'][@href='/games/draw-and-instants/loose-change-2021']"))
+    WebElement looseChangeSlider1;
+    //Brilliant Titanium
+    @FindBy(xpath =("//a[@class='cms-link'][@href='/games/draw-and-instants/4M-brilliant-titanium-2021']"))
+    WebElement brilliantSlider1;
+    //Willy Wonka
+    @FindBy(xpath =("//a[@class='cms-link'][@href='/games/draw-and-instants/willy-wonka-golden-ticket-2021']"))
+    WebElement wonkaSlider1;
+    //Haunted Cash
+    @FindBy(xpath =("//a[@class='cms-link'][@href='/games/draw-and-instants/haunted-cash-2021']"))
+    WebElement hauntedCash1;
+    //Extreme Cash
+    @FindBy(xpath =("//a[@class='cms-link'][@href='/games/draw-and-instants/100k-extreme-cash-2021']"))
+    WebElement extremeCash1;
+
+
+//Footer
+
+    //Logo
+    @FindBy(xpath = ("//*[@id='logo/white-fill/no-secondary']"))
+    WebElement logo1;
+    //Phone Number
+    @FindBy (xpath = ("//a[@href='tel:+1-781-849-5555']"))
+    WebElement phone1;
+    //Address
+    @FindBy (xpath =("//p[text()='150 Mount Vernon Street']"))
+    WebElement address1;
+    //Contact Us
+    @FindBy (xpath =("//a[@href='/about/contact-us']"))
+    WebElement contactUs1;
+
+    //Games
+
+    //Draws and Instants
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/games/draw-and-instants']"))
+    WebElement drawsAndInstants1;
+    //Pull Tabs
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/games/pull-tabs']"))
+    WebElement pullTabs1;
+
+    //Charitable Games
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/games/charitable-games']"))
+    WebElement charitableGames1;
+    //Season Tickets
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/games/season-tickets']"))
+    WebElement seasonTickets1;
+
+    //Tools
+
+    //Past Results
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/tools/past-results']"))
+    WebElement pastResults1;
+
+    //Winners
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/tools/winners']"))
+    WebElement winners1;
+
+    //Prizes Remaining
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/tools/prizes-remaining']"))
+    WebElement prizesRemaining1;
+
+    //Location Finder
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/tools/location-finder']"))
+    WebElement locationFinder1;
+
+    //Claim a Prize
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/tools/claim-a-prize']"))
+    WebElement claimPrize1;
+
+    //Mobile App
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/tools/mobile-app']"))
+    WebElement mobileApp1;
+
+    //About
+
+    //The Lottery
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/games/about/the-lottery']"))
+    WebElement theLottery1;
+
+    //Winning Stories
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/winning']"))
+    WebElement winningStories1;
+
+    //Environmental Impact
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/environmental-impact/']"))
+    WebElement environmentalImpact1;
+
+    //News
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/news']"))
+    WebElement news1;
+
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/support-communities']"))
+    WebElement supportCommunities1;
+
+    //Responsible Gaming
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/responsible-gaming']"))
+    WebElement responsibleGaming1;
+
+    //Becoming an Agent
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/becoming-an-agent']"))
+    WebElement becomeAgent1;
+
+    //Careers
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/employment']"))
+    WebElement careers1;
+
+
+    //ForYou
+
+    //My Recent Tickets
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/recent-tickets']"))
+    WebElement myRecentTickets1;
+
+    //PromotionsHeaderTest
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/promotions']"))
+    WebElement promotions1;
+
+    //VIP Members
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/promotions/vip]"))
+    WebElement vip1;
+
+    //Resources
+
+    //Public Records
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/public-records']"))
+    WebElement publicRecords1;
+
+
+    //Drawing Procedures
+    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/drawing-procedure']"))
+    WebElement drawingProcedures1;
+
+    //Download Apps
+
+    //App Store
+    @FindBy (xpath =("//a [@href='https://apps.apple.com/us/app/ma-lottery/id1187331485']"))
+    WebElement appStore1;
+
+
+    //Google Play
+    @FindBy (xpath =("//a [@href='https://play.google.com/store/apps/details?id=com.masslottery'] "))
+    WebElement googlePlay1;
+
+
+
+    //Socials
+
+    //Facebook
+    @FindBy (xpath =("//a[@href='https://www.facebook.com/MAStateLottery?v=wall']"))
+    WebElement facebook1;
+
+
+    //Twitter
+    @FindBy (xpath =("//a[@href=https://twitter.com/MAStateLottery']"))
+    WebElement twitter1;
+
+
+    //Instagram
+    @FindBy (xpath =("//a[@href='https://www.instagram.com/mastatelottery/']"))
+    WebElement instagram1;
+
+    //YouTube
+    @FindBy (xpath =("//a[@href='https://www.youtube.com/user/MassStateLottery']"))
+    WebElement youtube1;
+
+
+
+    //Flickr
+    @FindBy (xpath =("//a[@href='https://www.flickr.com/photos/mastatelottery']"))
+    WebElement flickr1;
+
+    //RSS
+    @FindBy (xpath =("//a[@href='/data/rss/masslottery_all.xml']"))
+    WebElement rss1;
+
+    //Help Line
+
+    //Logo
+    @FindBy (xpath =("//div[@class='compulsive-gambling-img']"))
+    WebElement helpLineLogo1;
+
+    //Link
+    @FindBy (xpath =("//a[@href='https://helplinema.org/problemgambling/'"))
+    WebElement helpLineLink1;
+
+
+    //Phone
+    @FindBy (xpath =("//a[@href='tel:1-800-327-5050']"))
+    WebElement helpLinePhone1;
+
+
+    //Privacy
+    @FindBy (xpath =("//a[@href='/about/privacy-policy']"))
+    WebElement privacy1;
+
+
+    //Legal
+    @FindBy (xpath =("//a[@href='/about/legal-notice']"))
+    WebElement legal1;
+
+
+
+    //Mass.gov
+    @FindBy (xpath =("//a[@href='https://www.mass.gov/']"))
+    WebElement massWebsite1;
+
+
+    //ADA Info
+
+    @FindBy (xpath =("//a[@href='/ada-information']"))
+    WebElement adaInfo1;
+
+
+    //App Privacy
+    @FindBy (xpath =("//a[@href='/app-privacy-information']"))
+    WebElement appPrivacy1;
+
+
+}

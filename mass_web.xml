@@ -1,0 +1,4074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project format="0.1">
+  <name>Mass Web</name>
+  <bdd_mode>true</bdd_mode>
+  <uid>05d9abac-7bc0-4309-b5a7-5e967713e8f9</uid>
+  <testPlan>
+    <folder>
+      <name>Mass Web</name>
+      <uid>bcdf4ed2-94d5-432e-8d4f-152e4fdae248</uid>
+      <order_in_parent>0</order_in_parent>
+    </folder>
+    <folder>
+      <name>Header</name>
+      <uid>3cf35bcc-1dd7-46d9-8246-ecb5b80ea990</uid>
+      <parentUid>bcdf4ed2-94d5-432e-8d4f-152e4fdae248</parentUid>
+      <order_in_parent>0</order_in_parent>
+    </folder>
+    <folder>
+      <name>Logo</name>
+      <uid>50b620b0-081e-4a43-9c4b-00a1e7686778</uid>
+      <parentUid>3cf35bcc-1dd7-46d9-8246-ecb5b80ea990</parentUid>
+      <order_in_parent>0</order_in_parent>
+    </folder>
+    <folder>
+      <name>Main Navigation</name>
+      <uid>42222050-4351-49c9-b108-70f0af9246cf</uid>
+      <parentUid>3cf35bcc-1dd7-46d9-8246-ecb5b80ea990</parentUid>
+      <order_in_parent>1073741824</order_in_parent>
+    </folder>
+    <folder>
+      <name>Games</name>
+      <uid>7dc9f1be-7e78-4ad0-81b3-d963ff30d45b</uid>
+      <parentUid>42222050-4351-49c9-b108-70f0af9246cf</parentUid>
+      <order_in_parent>0</order_in_parent>
+    </folder>
+    <folder>
+      <name>Tools</name>
+      <uid>eb477625-dd2b-4d09-8925-4bb537bc3a42</uid>
+      <parentUid>42222050-4351-49c9-b108-70f0af9246cf</parentUid>
+      <order_in_parent>1073741824</order_in_parent>
+    </folder>
+    <folder>
+      <name>Promotions</name>
+      <uid>c11507c4-c128-4819-8233-df964e238103</uid>
+      <parentUid>42222050-4351-49c9-b108-70f0af9246cf</parentUid>
+      <order_in_parent>1610612736</order_in_parent>
+    </folder>
+    <folder>
+      <name>About</name>
+      <uid>75723e59-aa0e-408b-97f8-1d0e06aff63c</uid>
+      <parentUid>42222050-4351-49c9-b108-70f0af9246cf</parentUid>
+      <order_in_parent>1879048192</order_in_parent>
+    </folder>
+    <folder>
+      <name>My Recent Tickets</name>
+      <uid>39d56ae7-5c92-49ef-b652-f6bb8a949bcc</uid>
+      <parentUid>3cf35bcc-1dd7-46d9-8246-ecb5b80ea990</parentUid>
+      <order_in_parent>1610612736</order_in_parent>
+    </folder>
+    <folder>
+      <name>Homepage</name>
+      <uid>24986691-83b3-4955-ac2b-70309b9f0902</uid>
+      <parentUid>bcdf4ed2-94d5-432e-8d4f-152e4fdae248</parentUid>
+      <order_in_parent>1073741824</order_in_parent>
+    </folder>
+    <folder>
+      <name>Message Banner</name>
+      <uid>668be6cf-8a36-4912-8d2f-5b2dc0127b09</uid>
+      <parentUid>24986691-83b3-4955-ac2b-70309b9f0902</parentUid>
+      <order_in_parent>0</order_in_parent>
+    </folder>
+    <folder>
+      <name>Carousel</name>
+      <uid>ddae115f-3260-4619-a6b0-d28167ed637a</uid>
+      <parentUid>24986691-83b3-4955-ac2b-70309b9f0902</parentUid>
+      <order_in_parent>1073741824</order_in_parent>
+    </folder>
+    <folder>
+      <name>Thrilling Prizes Carousel</name>
+      <uid>304a5f29-5535-45dc-9e11-5a29494a482a</uid>
+      <parentUid>24986691-83b3-4955-ac2b-70309b9f0902</parentUid>
+      <order_in_parent>1610612736</order_in_parent>
+    </folder>
+    <folder>
+      <name>Heading and Navigation</name>
+      <uid>8f7980f0-d2b5-481f-8cea-ec7094200683</uid>
+      <parentUid>304a5f29-5535-45dc-9e11-5a29494a482a</parentUid>
+      <order_in_parent>0</order_in_parent>
+    </folder>
+    <folder>
+      <name>Mega Millions Thrilling Prizes Card</name>
+      <uid>a53c1f0f-ef94-429a-8754-1dcad1138198</uid>
+      <parentUid>304a5f29-5535-45dc-9e11-5a29494a482a</parentUid>
+      <order_in_parent>1073741824</order_in_parent>
+    </folder>
+    <folder>
+      <name>Powerball Thrilling Prizes Card</name>
+      <uid>6cb9ab59-8566-4f89-9f1b-2e23aad2a205</uid>
+      <parentUid>304a5f29-5535-45dc-9e11-5a29494a482a</parentUid>
+      <order_in_parent>1610612736</order_in_parent>
+    </folder>
+    <folder>
+      <name>Megabucks Doubler Thrilling Prizes Card</name>
+      <uid>38ad7be2-45ae-4f2e-913b-945dd6dde983</uid>
+      <parentUid>304a5f29-5535-45dc-9e11-5a29494a482a</parentUid>
+      <order_in_parent>1879048192</order_in_parent>
+    </folder>
+    <folder>
+      <name>Mass Cash Thrilling Prizes Card</name>
+      <uid>1c543cc3-0443-42a7-9d9f-4379be4751ac</uid>
+      <parentUid>304a5f29-5535-45dc-9e11-5a29494a482a</parentUid>
+      <order_in_parent>2013265920</order_in_parent>
+    </folder>
+    <folder>
+      <name>Lucky for Life Thrilling Prizes Card</name>
+      <uid>bbef30a8-3f6e-48bf-a96d-57297350f068</uid>
+      <parentUid>304a5f29-5535-45dc-9e11-5a29494a482a</parentUid>
+      <order_in_parent>2080374784</order_in_parent>
+    </folder>
+    <folder>
+      <name>The Numbers Game Thrilling Prizes Card</name>
+      <uid>053b80fd-9476-4920-89ce-7f79f9a2fe37</uid>
+      <parentUid>304a5f29-5535-45dc-9e11-5a29494a482a</parentUid>
+      <order_in_parent>2113929216</order_in_parent>
+    </folder>
+    <folder>
+      <name>Draw Results Cards</name>
+      <uid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</uid>
+      <parentUid>24986691-83b3-4955-ac2b-70309b9f0902</parentUid>
+      <order_in_parent>1879048192</order_in_parent>
+    </folder>
+    <folder>
+      <name>Keno</name>
+      <uid>5a7eac78-4f42-49b2-a2c3-ef997f96e3fc</uid>
+      <parentUid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</parentUid>
+      <order_in_parent>0</order_in_parent>
+    </folder>
+    <folder>
+      <name>All or Nothing</name>
+      <uid>084c27f2-6e8b-4bbb-af0a-c48a0f6d4924</uid>
+      <parentUid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</parentUid>
+      <order_in_parent>1073741824</order_in_parent>
+    </folder>
+    <folder>
+      <name>The Numbers Game</name>
+      <uid>4f996c80-b46c-4f63-9c50-6eeb0e865134</uid>
+      <parentUid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</parentUid>
+      <order_in_parent>1610612736</order_in_parent>
+    </folder>
+    <folder>
+      <name>Mass Cash</name>
+      <uid>83365cf0-9339-4274-a4f3-2783d5f69f70</uid>
+      <parentUid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</parentUid>
+      <order_in_parent>1879048192</order_in_parent>
+    </folder>
+    <folder>
+      <name>Powerball</name>
+      <uid>13cbdf59-0d9f-420a-96d8-7cae58492813</uid>
+      <parentUid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</parentUid>
+      <order_in_parent>2013265920</order_in_parent>
+    </folder>
+    <folder>
+      <name>Mega Millions</name>
+      <uid>ad85598b-441b-438c-9a4e-b7dd78e833e9</uid>
+      <parentUid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</parentUid>
+      <order_in_parent>2080374784</order_in_parent>
+    </folder>
+    <folder>
+      <name>Megabucks Doubler</name>
+      <uid>d7954c67-86d3-4830-911a-6e48d275e026</uid>
+      <parentUid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</parentUid>
+      <order_in_parent>2113929216</order_in_parent>
+    </folder>
+    <folder>
+      <name>Lucky for Life</name>
+      <uid>37964f09-ac15-4704-9ec5-74329f13e684</uid>
+      <parentUid>1dde1298-09f0-4a22-9f9f-ec7984ca3b06</parentUid>
+      <order_in_parent>2130706432</order_in_parent>
+    </folder>
+  </testPlan>
+  <scenarios>
+    <scenario>
+      <name>Logo Navigation</name>
+      <uid>d040bf24-d257-4ec8-8a1a-852c72ed6bc5</uid>
+      <folderUid>50b620b0-081e-4a43-9c4b-00a1e7686778</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I have the site open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I am not on the homepage</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I tap the logo</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I am navigated to the home page</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Logo Position</name>
+      <uid>4f57efe3-d53d-413b-8754-d287bbc7aa8e</uid>
+      <folderUid>50b620b0-081e-4a43-9c4b-00a1e7686778</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I have the site open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I view the logo</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the logo is displayed in the top left corner</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Draw and Instants</name>
+      <uid>bee8a903-c8bb-447e-9bc6-736f63c44a71</uid>
+      <folderUid>7dc9f1be-7e78-4ad0-81b3-d963ff30d45b</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I select the Games icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the Draw and Instants page loads and all of the games display with name, price and prize info</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I tap in the Search by game name box</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I enter in THE NUMBERS GAME</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>THE NUMBERS GAME thumbnail is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Pull Tabs</name>
+      <uid>6b208c90-e228-4a7c-9bcd-b791a48251bb</uid>
+      <folderUid>7dc9f1be-7e78-4ad0-81b3-d963ff30d45b</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I select the Games icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I select the Games icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Pull Tabs page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Charitable Games</name>
+      <uid>0a5b88b1-c8a5-4caf-8323-f8efe0d4a8e0</uid>
+      <folderUid>7dc9f1be-7e78-4ad0-81b3-d963ff30d45b</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I select the Games icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Charitable Games icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Charitable Games page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Season Tickets</name>
+      <uid>4f7739cc-fa61-4953-947c-521dc9f50f3c</uid>
+      <folderUid>7dc9f1be-7e78-4ad0-81b3-d963ff30d45b</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I select the Games icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Season Tickets icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Seasons Tickets page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Past Results</name>
+      <uid>8d234d7f-6c14-4795-91a3-e23b09ee0b2a</uid>
+      <folderUid>eb477625-dd2b-4d09-8925-4bb537bc3a42</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I have the MA website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on icon Tools</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Past Results</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the Past Results page loads</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I select All or Nothing from the Game dropdown</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Game &amp; Results list is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Winners</name>
+      <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+      <folderUid>eb477625-dd2b-4d09-8925-4bb537bc3a42</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on the Tools icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Winners icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Winners page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I select 100x from the Game dropdown</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I select 30 days ago date and today's date</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>Winners list is displayed with Date and Prize information</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Prizes Remaining</name>
+      <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+      <folderUid>eb477625-dd2b-4d09-8925-4bb537bc3a42</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I have the MA website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on icon Tools</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Prizes Remaining icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Prizes Remaining page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I select $2 from the Ticket Cost dropdown</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I select Top from the Prize Type dropdown</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I select $9999 or below from the Prize Amount dropdown</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Prizes Remaining list is displayed with Game, Prize Amount, Start, Claimed, Remaining and Game Details information</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Location Finder</name>
+      <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+      <folderUid>eb477625-dd2b-4d09-8925-4bb537bc3a42</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I have the MA website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I select the Tools icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Location Finder icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Location Finder page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>a know your location pop-up appears</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I select Allow</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>my location is displayed on the map</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I enter my zipcode in the Search by city or ZIP Code</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Claim a Prize</name>
+      <uid>1d44181a-a796-4389-9a31-716dc966048b</uid>
+      <folderUid>eb477625-dd2b-4d09-8925-4bb537bc3a42</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I have the MA website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on icon Tools</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I select the Claim a Prize icon</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the Claim a Prize page loads</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I tap on the Learn More button</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>2020 Prize Claim page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Current Promotions</name>
+      <uid>6a8275f4-d5d6-4596-9a1a-87f915702995</uid>
+      <folderUid>c11507c4-c128-4819-8233-df964e238103</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Promotions icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Current Promotions icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Current Promotions page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>VIP Members</name>
+      <uid>677afd4d-7fbd-4609-b588-34349e0bbf8f</uid>
+      <folderUid>c11507c4-c128-4819-8233-df964e238103</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Promotions icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on VIP Members</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the VIP Members page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Second Chance</name>
+      <uid>1a0af017-d1ad-4953-88c3-63536df4e179</uid>
+      <folderUid>c11507c4-c128-4819-8233-df964e238103</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Promotions icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Second Chance icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Second Chance page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Support Communities</name>
+      <uid>341db44e-a6be-402a-8cc9-02d66f8af0a2</uid>
+      <folderUid>75723e59-aa0e-408b-97f8-1d0e06aff63c</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on About icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Support Communities icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Support Communities page loads with Fiscal Year and Ne Profit information</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>News</name>
+      <uid>d5484bb3-f799-4080-ade6-eee98ab5882c</uid>
+      <folderUid>75723e59-aa0e-408b-97f8-1d0e06aff63c</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on About icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on News icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the News page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Winning Stories</name>
+      <uid>e6a4833f-c809-4ec2-9a52-a22de8254fde</uid>
+      <folderUid>75723e59-aa0e-408b-97f8-1d0e06aff63c</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on the About icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on the Winning Stories icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Winning Stories page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>The Lottery</name>
+      <uid>50f0ce09-f4c5-4fe7-91a5-4c630f808d66</uid>
+      <folderUid>75723e59-aa0e-408b-97f8-1d0e06aff63c</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on the About icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I tap on The Lottery icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the The Lottery page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Responsible Gaming</name>
+      <uid>621394a5-ef25-49a5-9b14-43231af5de30</uid>
+      <folderUid>75723e59-aa0e-408b-97f8-1d0e06aff63c</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on About icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I tap on Responsible Gaming</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Responsible Gaming page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>For Agents</name>
+      <uid>4684be0c-518f-4041-801a-0de13030b400</uid>
+      <folderUid>75723e59-aa0e-408b-97f8-1d0e06aff63c</folderUid>
+      <order_in_parent>2080374784</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on About icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I tap on For Agents icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the For Agents page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>More...</name>
+      <uid>66faed8a-7f71-49ee-9fc8-a0c0f633b2fe</uid>
+      <folderUid>75723e59-aa0e-408b-97f8-1d0e06aff63c</folderUid>
+      <order_in_parent>2113929216</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on About icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>a dropdown is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>I tap on More... icon</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the About page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>My Recent Tickets - no recent tickets</name>
+      <uid>8a7ef84d-acaf-43af-8a45-a0bbc651777d</uid>
+      <folderUid>39d56ae7-5c92-49ef-b652-f6bb8a949bcc</folderUid>
+      <order_in_parent>-536870912</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on My Recent Tickets button</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>My Recent Tickets page loads</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>a message You have no recent tickets.  Play a To-Go game in Ticket Mode to get started. is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>My Recent Tickets - recent tickets</name>
+      <uid>b4586d4d-a354-4ab1-9b2b-9f8c353b6d92</uid>
+      <folderUid>39d56ae7-5c92-49ef-b652-f6bb8a949bcc</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap My Recent Tickets icon</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>My Recent Tickets page loads with ticket information</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Message banner links</name>
+      <uid>f716ce37-76a1-4ca0-8ec8-543753486d7e</uid>
+      <folderUid>668be6cf-8a36-4912-8d2f-5b2dc0127b09</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap the message banner</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I am navigated to the appropriate corresponding page</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Message banner close icon</name>
+      <uid>85ac9779-4b5d-44c5-8549-a26f03808dc9</uid>
+      <folderUid>668be6cf-8a36-4912-8d2f-5b2dc0127b09</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>there is a message banner</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I tap the message banner X</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the message banner is no longer displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Carousel Rotation</name>
+      <uid>833fb710-85e7-4643-b300-5c09307c805a</uid>
+      <folderUid>ddae115f-3260-4619-a6b0-d28167ed637a</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I view the carousel</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the carousel rotates every 5 seconds</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Carousel navigation circles</name>
+      <uid>0842c8a8-1770-492d-8462-e679491a0b6a</uid>
+      <folderUid>ddae115f-3260-4619-a6b0-d28167ed637a</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I view the carousel</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the carousel rotates</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the carousel navigation circle rotates with the image</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Click carousel image</name>
+      <uid>758a1814-63f9-490c-9d31-ec8d473ad981</uid>
+      <folderUid>ddae115f-3260-4619-a6b0-d28167ed637a</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click a carousel image</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I am navigated to the appropriate corresponding page</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Thrilling Prizes heading</name>
+      <uid>743bc225-c65f-4c3a-9303-17ec1d4c0372</uid>
+      <folderUid>8f7980f0-d2b5-481f-8cea-ec7094200683</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on the THELOTTERY logo at top pf page</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the MA home page loads and Thrilling Prizes heading is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Thrilling Prizes carousel left arrow default</name>
+      <uid>8d1159ea-ecfd-44b8-bc2d-68899ca09637</uid>
+      <folderUid>8f7980f0-d2b5-481f-8cea-ec7094200683</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on the THELOTTERY logo at top pf page</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the MA home page loads and Thrilling prizes left arrow is disabled by default</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Thrilling Prizes right arrow</name>
+      <uid>a3ead769-87c6-4193-8457-661adc6171ce</uid>
+      <folderUid>8f7980f0-d2b5-481f-8cea-ec7094200683</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>that I have the MA Website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap on the THELOTTERY logo at top of page</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the MA home page loads and Thrilling prizes right arrow is enabled by default</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Thrilling Prizes left arrow active</name>
+      <uid>004bed26-ae31-4c05-89fb-04d020cba137</uid>
+      <folderUid>8f7980f0-d2b5-481f-8cea-ec7094200683</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I have scrolled the thrilling prizes carousel to the right</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>I tap the left arrow</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the thrilling prizes carousel scrolls backward</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Thrilling Prizes right arrow inactive</name>
+      <uid>a06965ca-8fcf-4224-9a00-672d88954869</uid>
+      <folderUid>8f7980f0-d2b5-481f-8cea-ec7094200683</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I have the MA website open</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I slide the Thrilling Prizes slider to the right</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the right arrow is disabled and inactive</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MM Drawing on date in the future</name>
+      <uid>10a2d320-f9ec-4585-ac9a-f6b36fbf7d69</uid>
+      <folderUid>a53c1f0f-ef94-429a-8754-1dcad1138198</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not a Mega Millions draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the mega millions thrilling prizes carousel displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing on [next draw date]</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MM drawing today</name>
+      <uid>ff9a143f-7744-4d0a-af2b-2e9bfe1ec811</uid>
+      <folderUid>a53c1f0f-ef94-429a-8754-1dcad1138198</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is a Mega Millions draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the mega millions thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing today, 11:00 pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MM estimated jackpot</name>
+      <uid>e755c09b-2c5f-4260-83bb-8f920569699f</uid>
+      <folderUid>a53c1f0f-ef94-429a-8754-1dcad1138198</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not the mega millions draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the mega millions estimated jackpot is displayed on the mega millions thrilling prizes card</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MM estimated jackpot pending</name>
+      <uid>61c0f12f-fe56-40b8-98c4-1416d03361e5</uid>
+      <folderUid>a53c1f0f-ef94-429a-8754-1dcad1138198</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is the mega millions draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the estimated jackpot on the mega millions thrilling prizes card is in the pending state</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the jackpot is displayed in place of the pending state once it comes in</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MM est. cash option</name>
+      <uid>79ea7d0f-1d39-41c2-97c7-15b941d0bd28</uid>
+      <folderUid>a53c1f0f-ef94-429a-8754-1dcad1138198</folderUid>
+      <order_in_parent>2080374784</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not a Mega Millions draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the estimated cash option is displayed on the mega millions thrilling prizes card</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MM est. cash option pending</name>
+      <uid>e0368e76-ecbb-442b-bcde-cad5ef3ea87b</uid>
+      <folderUid>a53c1f0f-ef94-429a-8754-1dcad1138198</folderUid>
+      <order_in_parent>2113929216</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is the mega millions draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the estimated cash option is replaced with the pending state on the mega millions thrilling prizes card</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the estimated cash option replaced the pending state once the results come in</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>PB Drawing on date in the future</name>
+      <uid>04ed8059-a137-493c-b500-900db0425782</uid>
+      <folderUid>6cb9ab59-8566-4f89-9f1b-2e23aad2a205</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not a Powerball draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Powerball thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing on [day, time]</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>PB drawing today</name>
+      <uid>5de7d9d2-b93f-4246-9df5-c9cff4ed1f91</uid>
+      <folderUid>6cb9ab59-8566-4f89-9f1b-2e23aad2a205</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>today is a Powerball draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Powerball thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing today, 11:00pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>PB estimated jackpot</name>
+      <uid>aed5344c-113b-43cf-92bc-ffaba2be71ef</uid>
+      <folderUid>6cb9ab59-8566-4f89-9f1b-2e23aad2a205</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not the Powerball draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Powerball estimated cash option is displayed on the Powerball thrilling prizes card</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>PB estimated jackpot pending</name>
+      <uid>e5a91639-a6ca-48f1-a78f-04041e110271</uid>
+      <folderUid>6cb9ab59-8566-4f89-9f1b-2e23aad2a205</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is the Powerball draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Powerball estimated jackpot on the Powerball thrilling prizes card is replaced with the pending state</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the Powerball pending state is replaced with the new jackpot when the results come in</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>PB est. cash option</name>
+      <uid>f27d29ab-36b8-4689-8fc8-6b3e2c82252e</uid>
+      <folderUid>6cb9ab59-8566-4f89-9f1b-2e23aad2a205</folderUid>
+      <order_in_parent>2080374784</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not a Powerball draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Powerball estimated cash option is displayed on the Powerball thrilling prizes card</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>PB est. cash option pending</name>
+      <uid>59bf6a84-0398-4ad2-bf67-9506c0f805e0</uid>
+      <folderUid>6cb9ab59-8566-4f89-9f1b-2e23aad2a205</folderUid>
+      <order_in_parent>2113929216</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is the Powerball draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the estimated cash option on the Powerball thrilling prizes card is replaced with the pending state</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the pending state on the Powerball thrilling prizes card is replaced with the new estimated cash option when the results come in</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MBD Drawing on date in the future</name>
+      <uid>6cc6677d-ec73-4659-b604-40723b65ca93</uid>
+      <folderUid>38ad7be2-45ae-4f2e-913b-945dd6dde983</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not a Megabucks Doubler draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Megabucks Doubler thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing on [next draw date, time]</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MBD drawing today</name>
+      <uid>a38c8947-86e4-4c77-b305-55fc28d90bd9</uid>
+      <folderUid>38ad7be2-45ae-4f2e-913b-945dd6dde983</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>It is a Megabucks Doubler draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Megabucks Doubler thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing today, 11:00pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MBD estimated jackpot</name>
+      <uid>353fb2e5-a119-492b-82dc-e54ebde71409</uid>
+      <folderUid>38ad7be2-45ae-4f2e-913b-945dd6dde983</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not the Megabucks Doubler draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Megabucks Doubler estimated jackpot is displayed on the mega millions thrilling prizes card</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MBD estimated jackpot pending</name>
+      <uid>10c3517e-c3c8-4966-befd-669fbdfd57cc</uid>
+      <folderUid>38ad7be2-45ae-4f2e-913b-945dd6dde983</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>i am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is the Mega Millions draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the mega millions thrilling prizes card displays the pending state</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the mega million thrilling prizes card displays the new estimated jackpot when it comes in</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MBD est. cash option</name>
+      <uid>2dae5b34-a4f5-41d9-b7d9-a774ecf05439</uid>
+      <folderUid>38ad7be2-45ae-4f2e-913b-945dd6dde983</folderUid>
+      <order_in_parent>2080374784</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not the Megabucks Doubler draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the megabucks doubler thrilling prizes card displays the estimated cash option</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MBD est. cash option pending</name>
+      <uid>838d3710-ae4e-436e-8468-8d993cd69bee</uid>
+      <folderUid>38ad7be2-45ae-4f2e-913b-945dd6dde983</folderUid>
+      <order_in_parent>2113929216</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is the Megabucks Doubler draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Megabucks Doubler thrilling prizes card displays the pending state</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the Megabucks Doubler estimated cash option is displayed when the results come in</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MC drawing today text</name>
+      <uid>ceba8f77-4bf4-4e75-8a05-62e80411c79f</uid>
+      <folderUid>1c543cc3-0443-42a7-9d9f-4379be4751ac</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>to day is a Mass Cash draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>"p1" is displayed on the Mass Cash thrilling prizes card</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing today, 9:47pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MC drawing closed text</name>
+      <uid>0ce23144-406e-41ff-b865-1febe969e673</uid>
+      <folderUid>1c543cc3-0443-42a7-9d9f-4379be4751ac</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is the Mass Cash draw time</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Mass Cash thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing tomorrow, 9:47pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MC Estimated Top Prize</name>
+      <uid>76958962-77ce-44ba-be82-0c93251f5a4b</uid>
+      <folderUid>1c543cc3-0443-42a7-9d9f-4379be4751ac</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>the Mass Cash thrilling prizes card displays the estimated top prize information</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>L4L drawing today text</name>
+      <uid>1695ecf2-58ac-43c0-9b0a-a57519aa4183</uid>
+      <folderUid>bbef30a8-3f6e-48bf-a96d-57297350f068</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is a Lucky for Life draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Lucky for Life thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing today, 10:00pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>L4L drawing tomorrow text</name>
+      <uid>4eecebfc-8b8a-4fa5-bdc6-7e64b8983c7b</uid>
+      <folderUid>bbef30a8-3f6e-48bf-a96d-57297350f068</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>tomorrow is a Lucky for Life draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Lucky for Life thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing tomorrow, 10:00pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>L4L drawing in the future text</name>
+      <uid>59ecdc86-d1f9-4fbf-92d1-17794e3324f6</uid>
+      <folderUid>bbef30a8-3f6e-48bf-a96d-57297350f068</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is not a Lucky for Life draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Lucky for Life thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing on [next draw day], 10:00pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>L4L Est. Top Prize</name>
+      <uid>e217a03b-c302-49b3-8327-fa80a7355198</uid>
+      <folderUid>bbef30a8-3f6e-48bf-a96d-57297350f068</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>the Lucky for Life thrilling prizes card displays the estimated top prize information</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MBD drawing tomorrow text</name>
+      <uid>2a82f50a-85a4-4f15-89f1-6cca5f98c079</uid>
+      <folderUid>38ad7be2-45ae-4f2e-913b-945dd6dde983</folderUid>
+      <order_in_parent>1342177280</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>tomorrow is a Megabucks Doubler draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the mega millions thrilling prizes carousel card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing today, 11:30pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>PB drawing tomorrow text</name>
+      <uid>176e806c-04ab-484e-b04d-12192d144bf4</uid>
+      <folderUid>6cb9ab59-8566-4f89-9f1b-2e23aad2a205</folderUid>
+      <order_in_parent>536870912</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>tomorrow is a Powerball draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Powerball thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing tomorrow, 11:00pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>MM draw tomorrow text</name>
+      <uid>06f4d07d-b5a6-4802-b273-c93ecac56fa1</uid>
+      <folderUid>a53c1f0f-ef94-429a-8754-1dcad1138198</folderUid>
+      <order_in_parent>1342177280</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>tomorrow is a Mega Millions draw day</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the mega millions thrilling prizes carousel displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing tomorrow, 11:00 pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG drawing today text before midday</name>
+      <uid>a4786fdf-e62b-4b43-83a7-46d49fa34d84</uid>
+      <folderUid>053b80fd-9476-4920-89ce-7f79f9a2fe37</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is before 12:45pm</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the TNG thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing today, 12:47pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG Drawn Twice Daily text</name>
+      <uid>6cd49775-7be3-4df3-824b-94f9b24e056d</uid>
+      <folderUid>053b80fd-9476-4920-89ce-7f79f9a2fe37</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>the TNG thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawn twice daily</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Keno results card heading</name>
+      <uid>2553af67-d2e9-4df3-8cb4-fd1223ae6718</uid>
+      <folderUid>5a7eac78-4f42-49b2-a2c3-ef997f96e3fc</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap the Keno draw results card heading</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the Keno game details screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Keno draw card info icon</name>
+      <uid>9af6b8b5-acfd-40c8-a9ee-c6d7f0d2c3a1</uid>
+      <folderUid>5a7eac78-4f42-49b2-a2c3-ef997f96e3fc</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>Whe I click the information icon on the Keno draw results card</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the Keno game details screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Keno draw card most recent drawing</name>
+      <uid>258fb097-a8e6-4f2e-acf1-da8ccd3b7217</uid>
+      <folderUid>5a7eac78-4f42-49b2-a2c3-ef997f96e3fc</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>the most recent Keno draw number is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the Keno draw number updates automatically</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Keno draw card view mode button</name>
+      <uid>32655f19-0873-41db-a162-78c25edc4ed7</uid>
+      <folderUid>5a7eac78-4f42-49b2-a2c3-ef997f96e3fc</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap View Mode on the Keno draw results card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the Keno View Mode screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Keno draw card ticket mode button</name>
+      <uid>7286c0ec-e1e9-43a8-aca1-41f5d2eade49</uid>
+      <folderUid>5a7eac78-4f42-49b2-a2c3-ef997f96e3fc</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap Ticket Mode on the Keno draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the Keno Ticket Form screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>Keno draw card past results button</name>
+      <uid>830ee3c6-ee77-4f85-bb20-8482c254f2b8</uid>
+      <folderUid>5a7eac78-4f42-49b2-a2c3-ef997f96e3fc</folderUid>
+      <order_in_parent>2080374784</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click Past Results on the Keno draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the Past Results screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>Keno is pre-selected</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>AoN results card heading</name>
+      <uid>8d29b8a8-7a0d-4d26-aeb9-3cf13a839fb8</uid>
+      <folderUid>084c27f2-6e8b-4bbb-af0a-c48a0f6d4924</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click the All or Nothing draw card heading</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the All or Nothing game details screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>AoN draw card info icon</name>
+      <uid>31a7d8e8-c328-4338-9caf-81b354f59ad9</uid>
+      <folderUid>084c27f2-6e8b-4bbb-af0a-c48a0f6d4924</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click the information icon on the All or Nothing draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the All or Nothing game details screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>AoN draw card most recent drawing</name>
+      <uid>05fa629b-10d5-49a5-b6b1-14f9a8777c07</uid>
+      <folderUid>084c27f2-6e8b-4bbb-af0a-c48a0f6d4924</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I view the All or Nothing draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the most recent All or Nothing draw number is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the draw number updates automatically</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>AoN draw card view mode button</name>
+      <uid>621085ee-da52-45c2-8f34-d0e97a59b486</uid>
+      <folderUid>084c27f2-6e8b-4bbb-af0a-c48a0f6d4924</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click View Mode on the All or Nothing draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the All or Nothing view mode screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>AoN draw card ticket mode button</name>
+      <uid>5d9c9019-ad21-4aae-8d0b-d11f09a54610</uid>
+      <folderUid>084c27f2-6e8b-4bbb-af0a-c48a0f6d4924</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click Ticket Mode on the All or Nothing draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the All or Nothing ticket form screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>AoN draw card past results button</name>
+      <uid>8afb54a2-84e6-40ef-88f8-72343ea641e4</uid>
+      <folderUid>084c27f2-6e8b-4bbb-af0a-c48a0f6d4924</folderUid>
+      <order_in_parent>2080374784</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click Past Results on the All or Nothing draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the Past Results screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>All or Nothing is pre-populated</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG draw card heading</name>
+      <uid>425419c8-5abb-4351-95e1-141b372e9364</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>0</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I tap the TNG draw card heading</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the TNG game details screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG draw card information icon</name>
+      <uid>a04786f2-b940-4e2e-a009-388a24fee9aa</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>1073741824</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click the information icon on the TNG draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the TNG game details screen is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG calendar left arrow default</name>
+      <uid>f686ddd1-aec9-453a-b2af-d054a1d4dc8c</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>1610612736</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>the left calendar arrow is in an active state</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG right arrow default</name>
+      <uid>8446d358-e145-41ac-ba26-c737c1ce2fb4</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>1879048192</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I haven't changed the date on the TNG calendar</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the right calendar arrow on the TNG draw card is gray and inactive</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG right arrow active</name>
+      <uid>b6f880fc-e65f-4b6f-acd8-65e62ac44b91</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2013265920</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I have changed the TNG calendar to a previous date</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the right calendar arrow on the TNG draw card is in an active state</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG date default</name>
+      <uid>d20b5a30-2dc5-41a2-8963-1f4f9f96c41e</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2080374784</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I have not changed the TNG calendar date</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the TNG calendar displays the date of the most recent draw</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG past date</name>
+      <uid>e960110d-0478-4638-a9ff-50924e87143f</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2113929216</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I select a previous draw date on the TNG draw card</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the TNG calendar displays the selected date</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the TNG results for that date are displayed</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG calendar icon</name>
+      <uid>d5c6c627-4745-4008-beb0-64a156bd48ac</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2130706432</order_in_parent>
+    </scenario>
+    <scenario>
+      <name>TNG calendar select past date</name>
+      <uid>26c6f2c7-0608-472d-a181-775853c4992e</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2139095040</order_in_parent>
+    </scenario>
+    <scenario>
+      <name>TNG calendar select future date</name>
+      <uid>1019b90a-24d0-4744-9e78-045e7200f017</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2143289344</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I open the calendar on the TNG draw card</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>I am unable to select a future date</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG draw card midday drawing</name>
+      <uid>3ffb8dd4-9f66-49e3-9df2-9e2c10f36e15</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2145386496</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is after 12:47pm</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the TNG midday drawing results are displayed for the current date</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG draw card midday drawing pending</name>
+      <uid>1bf5967e-d348-4e01-94b6-f8c406e9bb6c</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2146435072</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is 12:47pm</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the TNG draw card midday displays a pending state</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>it auto updates to display the TNG midday results when they come in</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the evening section displays "p1"</actionword>
+          <annotation>and</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing closes at 7:45 pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG draw card midday draw video link</name>
+      <uid>e101b589-7c4c-4131-8b27-8f2fa0e0ee10</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2146959360</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click on the TNG draw video link</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the TNG draw video for that date is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG draw card midday prize payout</name>
+      <uid>152b3cba-ffcd-4256-bb6a-ead3174817fc</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2147221504</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>I click the TNG Midday prize payout link</actionword>
+          <annotation>when</annotation>
+        </call>
+        <call>
+          <actionword>the midday prize payout information for that date is displayed in an overlay</actionword>
+          <annotation>then</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG draw card midday video link pending</name>
+      <uid>96ba263c-6abd-4e07-8dc2-03680f6ebc34</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2147352576</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is 12:47pm</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the midday draw video link is not displayed while the pending state is displayed</actionword>
+          <annotation>then</annotation>
+        </call>
+        <call>
+          <actionword>the draw video link auto populates once the video is available</actionword>
+          <annotation>and</annotation>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG draw card midday prize payout pending</name>
+      <uid>636c796f-7c1c-4779-8f25-44bfc782f1a9</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2147418112</order_in_parent>
+    </scenario>
+    <scenario>
+      <name>TNG draw card evening drawing</name>
+      <uid>c382d498-2d43-447b-9464-39fd397dd5f0</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2147450880</order_in_parent>
+    </scenario>
+    <scenario>
+      <name>TNG draw card evening drawing pending</name>
+      <uid>e5153765-4579-4484-816a-de8fa86bcaea</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2147467264</order_in_parent>
+    </scenario>
+    <scenario>
+      <name>TNG draw card evening drawing after midday before evening</name>
+      <uid>24025612-fd05-408f-a697-00f3809e0eaf</uid>
+      <folderUid>4f996c80-b46c-4f63-9c50-6eeb0e865134</folderUid>
+      <order_in_parent>2147475456</order_in_parent>
+    </scenario>
+    <scenario>
+      <name>TNG drawing today after midday before evening</name>
+      <uid>cdb899d0-3b43-493c-a6a2-508337605068</uid>
+      <folderUid>053b80fd-9476-4920-89ce-7f79f9a2fe37</folderUid>
+      <order_in_parent>536870912</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is between 12:47pm and 7:47pm</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the TNG thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing today, 12:47pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+    <scenario>
+      <name>TNG drawing tomorrow</name>
+      <uid>57140d3a-4e98-4aeb-8106-cd06e4ea007e</uid>
+      <folderUid>053b80fd-9476-4920-89ce-7f79f9a2fe37</folderUid>
+      <order_in_parent>1342177280</order_in_parent>
+      <steps>
+        <call>
+          <actionword>I am on the home screen</actionword>
+          <annotation>given</annotation>
+        </call>
+        <call>
+          <actionword>it is after 7:47pm</actionword>
+          <annotation>and</annotation>
+        </call>
+        <call>
+          <actionword>the TNG thrilling prizes card displays "p1"</actionword>
+          <annotation>then</annotation>
+          <arguments>
+            <argument>
+              <name>p1</name>
+              <value>
+                <template>
+                  <stringliteral>drawing tomorrow, 12:45pm</stringliteral>
+                </template>
+              </value>
+            </argument>
+          </arguments>
+        </call>
+      </steps>
+    </scenario>
+  </scenarios>
+  <actionwords>
+    <actionword>
+      <name>I have the site open</name>
+      <uid>c751b40c-dedc-4196-b323-bd6d87dc6150</uid>
+      <callers>
+        <uid>4f57efe3-d53d-413b-8754-d287bbc7aa8e</uid>
+        <uid>d040bf24-d257-4ec8-8a1a-852c72ed6bc5</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap the logo</name>
+      <uid>0ee050e4-c551-40ca-9413-b3673db918fe</uid>
+      <callers>
+        <uid>d040bf24-d257-4ec8-8a1a-852c72ed6bc5</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I am navigated to the home page</name>
+      <uid>a9be25c6-db90-4006-8afc-4e8047ace2a7</uid>
+      <callers>
+        <uid>d040bf24-d257-4ec8-8a1a-852c72ed6bc5</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I view the logo</name>
+      <uid>964740cc-abe5-48ad-9e05-0934284793be</uid>
+      <callers>
+        <uid>4f57efe3-d53d-413b-8754-d287bbc7aa8e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the logo is displayed in the top left corner</name>
+      <uid>a4738d57-06dc-43a9-b74d-f1a49c3ca45c</uid>
+      <callers>
+        <uid>4f57efe3-d53d-413b-8754-d287bbc7aa8e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I have the MA website open</name>
+      <uid>e69e02e3-e180-475c-ae91-0838d00f8116</uid>
+      <callers>
+        <uid>a06965ca-8fcf-4224-9a00-672d88954869</uid>
+        <uid>1d44181a-a796-4389-9a31-716dc966048b</uid>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+        <uid>8d234d7f-6c14-4795-91a3-e23b09ee0b2a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on icon Tools</name>
+      <uid>fe1d6995-17d0-4b82-aedc-d7e22476ba04</uid>
+      <callers>
+        <uid>1d44181a-a796-4389-9a31-716dc966048b</uid>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+        <uid>8d234d7f-6c14-4795-91a3-e23b09ee0b2a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>a dropdown is displayed</name>
+      <uid>60c470f6-f6bd-4d18-a2fb-89e5d4ba51b1</uid>
+      <callers>
+        <uid>66faed8a-7f71-49ee-9fc8-a0c0f633b2fe</uid>
+        <uid>4684be0c-518f-4041-801a-0de13030b400</uid>
+        <uid>621394a5-ef25-49a5-9b14-43231af5de30</uid>
+        <uid>6b208c90-e228-4a7c-9bcd-b791a48251bb</uid>
+        <uid>1d44181a-a796-4389-9a31-716dc966048b</uid>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+        <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+        <uid>8d234d7f-6c14-4795-91a3-e23b09ee0b2a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on Past Results</name>
+      <uid>622940f6-2951-44ab-81dd-5790ba4b6552</uid>
+      <callers>
+        <uid>8d234d7f-6c14-4795-91a3-e23b09ee0b2a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Past Results page loads</name>
+      <uid>1f886a38-74e3-4c21-ac3c-538043f9502c</uid>
+      <parameters>
+        <parameter>
+          <name>__free_text</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>8d234d7f-6c14-4795-91a3-e23b09ee0b2a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select All or Nothing from the Game dropdown</name>
+      <uid>0fb199ae-23d5-456a-bbc2-7f5ae90b5d2f</uid>
+      <callers>
+        <uid>8d234d7f-6c14-4795-91a3-e23b09ee0b2a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Game &amp; Results list is displayed</name>
+      <uid>82ad8f21-8a01-4da8-a70d-05fbb482d66f</uid>
+      <callers>
+        <uid>8d234d7f-6c14-4795-91a3-e23b09ee0b2a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>that I have the MA Website open</name>
+      <uid>77062660-5172-4361-9c22-808679dd4fb7</uid>
+      <callers>
+        <uid>a3ead769-87c6-4193-8457-661adc6171ce</uid>
+        <uid>8d1159ea-ecfd-44b8-bc2d-68899ca09637</uid>
+        <uid>743bc225-c65f-4c3a-9303-17ec1d4c0372</uid>
+        <uid>b4586d4d-a354-4ab1-9b2b-9f8c353b6d92</uid>
+        <uid>8a7ef84d-acaf-43af-8a45-a0bbc651777d</uid>
+        <uid>66faed8a-7f71-49ee-9fc8-a0c0f633b2fe</uid>
+        <uid>4684be0c-518f-4041-801a-0de13030b400</uid>
+        <uid>621394a5-ef25-49a5-9b14-43231af5de30</uid>
+        <uid>50f0ce09-f4c5-4fe7-91a5-4c630f808d66</uid>
+        <uid>e6a4833f-c809-4ec2-9a52-a22de8254fde</uid>
+        <uid>d5484bb3-f799-4080-ade6-eee98ab5882c</uid>
+        <uid>341db44e-a6be-402a-8cc9-02d66f8af0a2</uid>
+        <uid>1a0af017-d1ad-4953-88c3-63536df4e179</uid>
+        <uid>677afd4d-7fbd-4609-b588-34349e0bbf8f</uid>
+        <uid>6a8275f4-d5d6-4596-9a1a-87f915702995</uid>
+        <uid>4f7739cc-fa61-4953-947c-521dc9f50f3c</uid>
+        <uid>0a5b88b1-c8a5-4caf-8323-f8efe0d4a8e0</uid>
+        <uid>6b208c90-e228-4a7c-9bcd-b791a48251bb</uid>
+        <uid>bee8a903-c8bb-447e-9bc6-736f63c44a71</uid>
+        <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on the Tools icon</name>
+      <uid>d5ecc774-a31f-4624-abde-f570495a89b0</uid>
+      <callers>
+        <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I dropdown is displayed</name>
+      <uid>2d2850cd-3f27-46f8-a5e6-8f7db0338d3b</uid>
+    </actionword>
+    <actionword>
+      <name>I tap on Winners icon</name>
+      <uid>9518892c-bfbc-4675-9a30-4debcc70df36</uid>
+      <callers>
+        <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Winners page loads</name>
+      <uid>2587dedc-d1af-4643-a3cb-af1991d0d4dd</uid>
+      <callers>
+        <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select 100x from the Game dropdown</name>
+      <uid>01d9ce84-448f-4dbb-bee5-530a1ca8b5c3</uid>
+      <callers>
+        <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select 30 days ago date and today's date</name>
+      <uid>94e930c4-d634-47f3-b9a7-ee8407d69d0c</uid>
+      <callers>
+        <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>Winners list is displayed with Date and Prize information</name>
+      <uid>4a2a4f70-3f2f-45ab-b849-46e56c807b6d</uid>
+      <callers>
+        <uid>675ac4fd-9a28-4ed0-832c-0a7db0463f5f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on Prizes Remaining icon</name>
+      <uid>a769ead6-4475-4e38-9dcd-6d0daed4ab3b</uid>
+      <callers>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Prizes Remaining page loads</name>
+      <uid>fa529abe-a341-435a-a183-8621c32884c2</uid>
+      <callers>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select $2 from the Ticket Cost dropdown</name>
+      <uid>e63a402f-a6e5-4373-a2d0-bb97e3684298</uid>
+      <callers>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select Top from the Prize Type dropdown</name>
+      <uid>434e3278-5b7a-4c7f-9f50-0663694c68fa</uid>
+      <callers>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select $9999 or below from the Prize Amount dropdown</name>
+      <uid>82bd8062-0b65-4d19-b285-b17fd5ee8a1c</uid>
+      <callers>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Prizes Remaining list is displayed with Game, Prize Amount, Start, Claimed, Remaining and Game Details information</name>
+      <uid>5d13bbd3-8c2e-4081-a94d-745ff7126cef</uid>
+      <callers>
+        <uid>3868de0a-5f8d-4ecd-aee7-831237fcb4df</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select the Tools icon</name>
+      <uid>b0b43d01-58c8-4c05-beb3-0641c68f0d98</uid>
+      <callers>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on Location Finder icon</name>
+      <uid>8d58f3ac-1197-4df9-9db7-ecede3d538ed</uid>
+      <callers>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Location Finder page loads</name>
+      <uid>ef239bf7-72ae-4ef6-b9c6-586b8d21eac6</uid>
+      <callers>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>a know your location pop-up appears</name>
+      <uid>5c079d7d-65b7-4436-8347-fe679e7d6eb8</uid>
+      <callers>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select Allow</name>
+      <uid>47773a07-1c4b-4b1f-8d90-8ee00c35e2ef</uid>
+      <callers>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>my location is displayed on the map</name>
+      <uid>8e1c44d7-b997-4a9e-932e-ab9040d32a46</uid>
+      <callers>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I enter my zipcode in the Search by city or ZIP Code</name>
+      <uid>f37c688f-a412-483b-b119-79e1c17b6346</uid>
+      <callers>
+        <uid>1619aef9-9579-4ab8-b879-fd3f399f0b6b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select the Claim a Prize icon</name>
+      <uid>b3310e70-7ae4-4794-9d52-971febca789e</uid>
+      <callers>
+        <uid>1d44181a-a796-4389-9a31-716dc966048b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Claim a Prize page loads</name>
+      <uid>686d9cb8-a105-491e-a482-1a7e7a337013</uid>
+      <callers>
+        <uid>1d44181a-a796-4389-9a31-716dc966048b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on the Learn More button</name>
+      <uid>98aaf8d0-e22e-4891-a644-4483241dda8b</uid>
+      <callers>
+        <uid>1d44181a-a796-4389-9a31-716dc966048b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>2020 Prize Claim page loads</name>
+      <uid>98029fda-9473-4065-a74d-6779309db4c1</uid>
+      <callers>
+        <uid>1d44181a-a796-4389-9a31-716dc966048b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select the Games icon</name>
+      <uid>d8cd81e8-b351-46b5-bc8f-d9f4f8a9ea6c</uid>
+      <callers>
+        <uid>4f7739cc-fa61-4953-947c-521dc9f50f3c</uid>
+        <uid>0a5b88b1-c8a5-4caf-8323-f8efe0d4a8e0</uid>
+        <uid>6b208c90-e228-4a7c-9bcd-b791a48251bb</uid>
+        <uid>bee8a903-c8bb-447e-9bc6-736f63c44a71</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Draw and Instants page loads and all of the games display with name, price and prize info</name>
+      <uid>1396f3e0-2a60-4f44-9b58-ea04a4f7704f</uid>
+      <callers>
+        <uid>bee8a903-c8bb-447e-9bc6-736f63c44a71</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap in the Search by game name box</name>
+      <uid>f3515f4e-7ce4-4755-85e5-91a628d5c231</uid>
+      <callers>
+        <uid>bee8a903-c8bb-447e-9bc6-736f63c44a71</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I enter in THE NUMBERS GAME</name>
+      <uid>f6b4eb57-0765-4949-9c6d-139a5ca40001</uid>
+      <callers>
+        <uid>bee8a903-c8bb-447e-9bc6-736f63c44a71</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>THE NUMBERS GAME thumbnail is displayed</name>
+      <uid>e7d55ad8-89c8-433f-91d2-9f67b6706ff2</uid>
+      <callers>
+        <uid>bee8a903-c8bb-447e-9bc6-736f63c44a71</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Pull Tabs page loads</name>
+      <uid>93668026-a01d-4a01-b69d-fb15fe4a59c9</uid>
+      <callers>
+        <uid>6b208c90-e228-4a7c-9bcd-b791a48251bb</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on Charitable Games icon</name>
+      <uid>c0a1e584-371d-4a42-899a-4f8f70fd7e88</uid>
+      <callers>
+        <uid>0a5b88b1-c8a5-4caf-8323-f8efe0d4a8e0</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Charitable Games page loads\</name>
+      <uid>106dace9-e4f7-4747-a62f-47524ee7efb6</uid>
+    </actionword>
+    <actionword>
+      <name>I tap on Season Tickets icon</name>
+      <uid>d71203a9-5d88-4a24-a291-6f1120d9dd84</uid>
+      <callers>
+        <uid>4f7739cc-fa61-4953-947c-521dc9f50f3c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Seasons Tickets page loads</name>
+      <uid>52e2fef9-4697-467e-8d4f-e5402d5f0368</uid>
+      <callers>
+        <uid>4f7739cc-fa61-4953-947c-521dc9f50f3c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>that</name>
+      <uid>2927e239-8a82-4304-9d32-f9db30bbe51e</uid>
+    </actionword>
+    <actionword>
+      <name>I tap on Promotions icon</name>
+      <uid>ce30568e-dc84-45b0-9296-8b601a048113</uid>
+      <callers>
+        <uid>1a0af017-d1ad-4953-88c3-63536df4e179</uid>
+        <uid>677afd4d-7fbd-4609-b588-34349e0bbf8f</uid>
+        <uid>6a8275f4-d5d6-4596-9a1a-87f915702995</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on Current Promotions icon</name>
+      <uid>21231007-1eae-4186-89af-2630892de128</uid>
+      <callers>
+        <uid>6a8275f4-d5d6-4596-9a1a-87f915702995</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Current Promotions page loads</name>
+      <uid>d22b647d-4fb4-4a40-8cd2-ba578cb8782c</uid>
+      <callers>
+        <uid>6a8275f4-d5d6-4596-9a1a-87f915702995</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on VIP Members</name>
+      <uid>70855ab9-fde8-4790-bc65-63e821280fff</uid>
+      <callers>
+        <uid>677afd4d-7fbd-4609-b588-34349e0bbf8f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the VIP Members page loads</name>
+      <uid>335f1f8a-f2b2-4dc3-a7ca-d6a17bb527bf</uid>
+      <callers>
+        <uid>677afd4d-7fbd-4609-b588-34349e0bbf8f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on Second Chance icon</name>
+      <uid>3233129c-db50-409e-a7b4-b73c94f72eb3</uid>
+      <callers>
+        <uid>1a0af017-d1ad-4953-88c3-63536df4e179</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Second Chance page loads</name>
+      <uid>26be5fc3-9e75-4e55-aa2f-31e755a2afaf</uid>
+      <callers>
+        <uid>1a0af017-d1ad-4953-88c3-63536df4e179</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on About icon</name>
+      <uid>6d426ec3-2547-420c-9911-6539cbdb01c0</uid>
+      <callers>
+        <uid>66faed8a-7f71-49ee-9fc8-a0c0f633b2fe</uid>
+        <uid>4684be0c-518f-4041-801a-0de13030b400</uid>
+        <uid>621394a5-ef25-49a5-9b14-43231af5de30</uid>
+        <uid>d5484bb3-f799-4080-ade6-eee98ab5882c</uid>
+        <uid>341db44e-a6be-402a-8cc9-02d66f8af0a2</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on Support Communities icon</name>
+      <uid>ce9067a1-7ed5-4e46-8a3e-c41bffc296fd</uid>
+      <callers>
+        <uid>341db44e-a6be-402a-8cc9-02d66f8af0a2</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Support Communities page loads with Fiscal Year and Ne Profit information</name>
+      <uid>1e332f78-b702-4af2-ade1-d2ee571e9068</uid>
+      <callers>
+        <uid>341db44e-a6be-402a-8cc9-02d66f8af0a2</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on the Winning Stories icon</name>
+      <uid>4378914b-0a44-41c1-916d-3de7a6be5a91</uid>
+      <callers>
+        <uid>e6a4833f-c809-4ec2-9a52-a22de8254fde</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on News icon</name>
+      <uid>ba64fd67-fb19-4784-adbc-217eef7e4d63</uid>
+      <callers>
+        <uid>d5484bb3-f799-4080-ade6-eee98ab5882c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the News page loads</name>
+      <uid>a0452849-58a2-474d-85b9-b099ff0d4048</uid>
+      <callers>
+        <uid>d5484bb3-f799-4080-ade6-eee98ab5882c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on the About icon</name>
+      <uid>74462af7-02e4-4304-aee7-42bcd991652b</uid>
+      <callers>
+        <uid>50f0ce09-f4c5-4fe7-91a5-4c630f808d66</uid>
+        <uid>e6a4833f-c809-4ec2-9a52-a22de8254fde</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Winning Stories page loads</name>
+      <uid>9b7d09e3-d670-4a5d-b6eb-345cbd736531</uid>
+      <callers>
+        <uid>e6a4833f-c809-4ec2-9a52-a22de8254fde</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on The Lottery icon</name>
+      <uid>9d6dd7ec-90e3-4e58-9e52-9cb69775c15f</uid>
+      <callers>
+        <uid>50f0ce09-f4c5-4fe7-91a5-4c630f808d66</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the The Lottery page loads</name>
+      <uid>92aaf434-0d6e-44eb-8765-312176077e67</uid>
+      <callers>
+        <uid>50f0ce09-f4c5-4fe7-91a5-4c630f808d66</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on Responsible Gaming</name>
+      <uid>a43555dd-207f-41ae-8fd3-5a7f0e9d2f7b</uid>
+      <callers>
+        <uid>621394a5-ef25-49a5-9b14-43231af5de30</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Responsible Gaming page loads</name>
+      <uid>7dfd4d3e-c873-410f-a3cb-956fd3adcbd4</uid>
+      <callers>
+        <uid>621394a5-ef25-49a5-9b14-43231af5de30</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on For Agents icon</name>
+      <uid>7b533343-2f91-4e7a-97b8-947bd4ee63ad</uid>
+      <callers>
+        <uid>4684be0c-518f-4041-801a-0de13030b400</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the For Agents page loads</name>
+      <uid>c4bfcf6c-7de8-461d-b1b9-e8c22a2fc52d</uid>
+      <callers>
+        <uid>4684be0c-518f-4041-801a-0de13030b400</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on More... icon</name>
+      <uid>d8fb9c54-dcab-49e4-8862-3d74c4d35468</uid>
+      <callers>
+        <uid>66faed8a-7f71-49ee-9fc8-a0c0f633b2fe</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the About page loads</name>
+      <uid>1980c892-ad2f-4362-9c9d-16d2b6c35a1e</uid>
+      <callers>
+        <uid>66faed8a-7f71-49ee-9fc8-a0c0f633b2fe</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on My Recent Tickets button</name>
+      <uid>81a62465-a8fc-42aa-94f2-df058c7eabdd</uid>
+      <callers>
+        <uid>8a7ef84d-acaf-43af-8a45-a0bbc651777d</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>My Recent Tickets page loads</name>
+      <uid>8dc5d82e-95ae-4877-862f-bb50f0190f9f</uid>
+      <callers>
+        <uid>8a7ef84d-acaf-43af-8a45-a0bbc651777d</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>a message You have no recent tickets.  Play a To-Go game in Ticket Mode to get started. is displayed</name>
+      <uid>387b766a-9eda-4c8f-9c06-54bf0bef4fc7</uid>
+      <callers>
+        <uid>8a7ef84d-acaf-43af-8a45-a0bbc651777d</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap My Recent Tickets icon</name>
+      <uid>e2ac63d7-5372-4068-86f9-96d5918c81ce</uid>
+      <callers>
+        <uid>b4586d4d-a354-4ab1-9b2b-9f8c353b6d92</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>My Recent Tickets page loads with ticket information</name>
+      <uid>90910ef3-7efd-4ade-8b8d-380234143d86</uid>
+      <callers>
+        <uid>b4586d4d-a354-4ab1-9b2b-9f8c353b6d92</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on the THELOTTERY logo at top pf page</name>
+      <uid>f9a5b5d7-676b-4c3c-838e-1ed2ebbc4447</uid>
+      <callers>
+        <uid>8d1159ea-ecfd-44b8-bc2d-68899ca09637</uid>
+        <uid>743bc225-c65f-4c3a-9303-17ec1d4c0372</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the MA home page loads and Thrilling Prizes heading is displayed</name>
+      <uid>b3fbaead-c9e6-4b68-a837-e60b03deef4d</uid>
+      <callers>
+        <uid>743bc225-c65f-4c3a-9303-17ec1d4c0372</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the MA home page loads and Thrilling prizes left arrow is disabled by default</name>
+      <uid>0ba80e23-3da1-4375-a62f-adbd14e27ea0</uid>
+      <callers>
+        <uid>8d1159ea-ecfd-44b8-bc2d-68899ca09637</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the MA home page loads and Thrilling prizes right arrow is enabled by default</name>
+      <uid>b176d616-7d3f-4a46-ad33-9a68f75ac881</uid>
+      <callers>
+        <uid>a3ead769-87c6-4193-8457-661adc6171ce</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I slide the Thrilling Prizes slider to the right</name>
+      <uid>5eee91a2-a394-46af-806d-a64a2a475151</uid>
+      <callers>
+        <uid>a06965ca-8fcf-4224-9a00-672d88954869</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the right arrow is disabled and inactive</name>
+      <uid>a087c6c6-2d06-48d2-a84e-65a612098207</uid>
+      <callers>
+        <uid>a06965ca-8fcf-4224-9a00-672d88954869</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I am on the home screen</name>
+      <uid>5b25cc81-40a0-4576-a2fb-8f60474c6ae3</uid>
+      <callers>
+        <uid>96ba263c-6abd-4e07-8dc2-03680f6ebc34</uid>
+        <uid>152b3cba-ffcd-4256-bb6a-ead3174817fc</uid>
+        <uid>e101b589-7c4c-4131-8b27-8f2fa0e0ee10</uid>
+        <uid>1bf5967e-d348-4e01-94b6-f8c406e9bb6c</uid>
+        <uid>3ffb8dd4-9f66-49e3-9df2-9e2c10f36e15</uid>
+        <uid>1019b90a-24d0-4744-9e78-045e7200f017</uid>
+        <uid>e960110d-0478-4638-a9ff-50924e87143f</uid>
+        <uid>d20b5a30-2dc5-41a2-8963-1f4f9f96c41e</uid>
+        <uid>b6f880fc-e65f-4b6f-acd8-65e62ac44b91</uid>
+        <uid>8446d358-e145-41ac-ba26-c737c1ce2fb4</uid>
+        <uid>f686ddd1-aec9-453a-b2af-d054a1d4dc8c</uid>
+        <uid>a04786f2-b940-4e2e-a009-388a24fee9aa</uid>
+        <uid>425419c8-5abb-4351-95e1-141b372e9364</uid>
+        <uid>8afb54a2-84e6-40ef-88f8-72343ea641e4</uid>
+        <uid>5d9c9019-ad21-4aae-8d0b-d11f09a54610</uid>
+        <uid>621085ee-da52-45c2-8f34-d0e97a59b486</uid>
+        <uid>05fa629b-10d5-49a5-b6b1-14f9a8777c07</uid>
+        <uid>31a7d8e8-c328-4338-9caf-81b354f59ad9</uid>
+        <uid>8d29b8a8-7a0d-4d26-aeb9-3cf13a839fb8</uid>
+        <uid>830ee3c6-ee77-4f85-bb20-8482c254f2b8</uid>
+        <uid>7286c0ec-e1e9-43a8-aca1-41f5d2eade49</uid>
+        <uid>32655f19-0873-41db-a162-78c25edc4ed7</uid>
+        <uid>258fb097-a8e6-4f2e-acf1-da8ccd3b7217</uid>
+        <uid>9af6b8b5-acfd-40c8-a9ee-c6d7f0d2c3a1</uid>
+        <uid>2553af67-d2e9-4df3-8cb4-fd1223ae6718</uid>
+        <uid>6cd49775-7be3-4df3-824b-94f9b24e056d</uid>
+        <uid>57140d3a-4e98-4aeb-8106-cd06e4ea007e</uid>
+        <uid>cdb899d0-3b43-493c-a6a2-508337605068</uid>
+        <uid>a4786fdf-e62b-4b43-83a7-46d49fa34d84</uid>
+        <uid>e217a03b-c302-49b3-8327-fa80a7355198</uid>
+        <uid>59ecdc86-d1f9-4fbf-92d1-17794e3324f6</uid>
+        <uid>4eecebfc-8b8a-4fa5-bdc6-7e64b8983c7b</uid>
+        <uid>1695ecf2-58ac-43c0-9b0a-a57519aa4183</uid>
+        <uid>76958962-77ce-44ba-be82-0c93251f5a4b</uid>
+        <uid>0ce23144-406e-41ff-b865-1febe969e673</uid>
+        <uid>ceba8f77-4bf4-4e75-8a05-62e80411c79f</uid>
+        <uid>838d3710-ae4e-436e-8468-8d993cd69bee</uid>
+        <uid>2dae5b34-a4f5-41d9-b7d9-a774ecf05439</uid>
+        <uid>353fb2e5-a119-492b-82dc-e54ebde71409</uid>
+        <uid>2a82f50a-85a4-4f15-89f1-6cca5f98c079</uid>
+        <uid>a38c8947-86e4-4c77-b305-55fc28d90bd9</uid>
+        <uid>6cc6677d-ec73-4659-b604-40723b65ca93</uid>
+        <uid>59bf6a84-0398-4ad2-bf67-9506c0f805e0</uid>
+        <uid>f27d29ab-36b8-4689-8fc8-6b3e2c82252e</uid>
+        <uid>e5a91639-a6ca-48f1-a78f-04041e110271</uid>
+        <uid>aed5344c-113b-43cf-92bc-ffaba2be71ef</uid>
+        <uid>5de7d9d2-b93f-4246-9df5-c9cff4ed1f91</uid>
+        <uid>176e806c-04ab-484e-b04d-12192d144bf4</uid>
+        <uid>04ed8059-a137-493c-b500-900db0425782</uid>
+        <uid>e0368e76-ecbb-442b-bcde-cad5ef3ea87b</uid>
+        <uid>79ea7d0f-1d39-41c2-97c7-15b941d0bd28</uid>
+        <uid>61c0f12f-fe56-40b8-98c4-1416d03361e5</uid>
+        <uid>e755c09b-2c5f-4260-83bb-8f920569699f</uid>
+        <uid>06f4d07d-b5a6-4802-b273-c93ecac56fa1</uid>
+        <uid>ff9a143f-7744-4d0a-af2b-2e9bfe1ec811</uid>
+        <uid>10a2d320-f9ec-4585-ac9a-f6b36fbf7d69</uid>
+        <uid>004bed26-ae31-4c05-89fb-04d020cba137</uid>
+        <uid>758a1814-63f9-490c-9d31-ec8d473ad981</uid>
+        <uid>0842c8a8-1770-492d-8462-e679491a0b6a</uid>
+        <uid>833fb710-85e7-4643-b300-5c09307c805a</uid>
+        <uid>85ac9779-4b5d-44c5-8549-a26f03808dc9</uid>
+        <uid>f716ce37-76a1-4ca0-8ec8-543753486d7e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap the message banner</name>
+      <uid>494b3daa-a559-4861-aeea-0a76f6460f24</uid>
+      <callers>
+        <uid>f716ce37-76a1-4ca0-8ec8-543753486d7e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I am navigated to the appropriate corresponding page</name>
+      <uid>a6c2c71a-86bc-4dd4-b7b4-eb129ead11fa</uid>
+      <callers>
+        <uid>758a1814-63f9-490c-9d31-ec8d473ad981</uid>
+        <uid>f716ce37-76a1-4ca0-8ec8-543753486d7e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>there is a message banner</name>
+      <uid>bcb86f05-b612-4157-af1e-80386de24d26</uid>
+      <callers>
+        <uid>85ac9779-4b5d-44c5-8549-a26f03808dc9</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap the message banner X</name>
+      <uid>83acdfdd-075e-4e0e-a208-58c1a98ddeaa</uid>
+      <callers>
+        <uid>85ac9779-4b5d-44c5-8549-a26f03808dc9</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the message banner is no longer displayed</name>
+      <uid>af0e9385-6177-44c2-86bb-12a6523a517d</uid>
+      <callers>
+        <uid>85ac9779-4b5d-44c5-8549-a26f03808dc9</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I view the carousel</name>
+      <uid>e2c65afa-4c7b-44fb-a86b-d3c6fc682617</uid>
+      <callers>
+        <uid>0842c8a8-1770-492d-8462-e679491a0b6a</uid>
+        <uid>833fb710-85e7-4643-b300-5c09307c805a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the carousel rotates every 5 seconds</name>
+      <uid>04661572-1b3b-485c-a8c1-f271be323e5e</uid>
+      <callers>
+        <uid>833fb710-85e7-4643-b300-5c09307c805a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the carousel rotates</name>
+      <uid>0f3c2f69-660a-4f82-9a73-885abdd9a567</uid>
+      <callers>
+        <uid>0842c8a8-1770-492d-8462-e679491a0b6a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the carousel navigation circle rotates with the image</name>
+      <uid>65fe602a-1376-4199-acc4-294f12cdeccc</uid>
+      <callers>
+        <uid>0842c8a8-1770-492d-8462-e679491a0b6a</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click a carousel image</name>
+      <uid>ff57226b-5b45-4d8a-b489-db9454809d28</uid>
+      <callers>
+        <uid>758a1814-63f9-490c-9d31-ec8d473ad981</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I have scrolled the thrilling prizes carousel to the right</name>
+      <uid>e69456f5-dda8-4e5a-bf19-34883b3d238d</uid>
+      <callers>
+        <uid>004bed26-ae31-4c05-89fb-04d020cba137</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap the left arrow</name>
+      <uid>94e6ade0-7153-4647-84cb-583ad0c2bda9</uid>
+      <callers>
+        <uid>004bed26-ae31-4c05-89fb-04d020cba137</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the thrilling prizes carousel scrolls backward</name>
+      <uid>3b173457-fa7f-4392-9bed-9c48791dd289</uid>
+      <callers>
+        <uid>004bed26-ae31-4c05-89fb-04d020cba137</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is not a Mega Millions draw day</name>
+      <uid>794c8ecd-1c1e-4b39-b02c-ceaa7050dad3</uid>
+      <callers>
+        <uid>79ea7d0f-1d39-41c2-97c7-15b941d0bd28</uid>
+        <uid>10a2d320-f9ec-4585-ac9a-f6b36fbf7d69</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the mega millions thrilling prizes carousel displays "p1"</name>
+      <uid>577c536a-0935-4030-a892-58c013a838d6</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>06f4d07d-b5a6-4802-b273-c93ecac56fa1</uid>
+        <uid>10a2d320-f9ec-4585-ac9a-f6b36fbf7d69</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is a Mega Millions draw day</name>
+      <uid>ffc608f2-3cfb-432d-8025-94f98511ee9b</uid>
+      <callers>
+        <uid>ff9a143f-7744-4d0a-af2b-2e9bfe1ec811</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the mega millions thrilling prizes card displays "p1"</name>
+      <uid>0cadf3a5-83b5-4c9e-8167-e3f5c5c6cc05</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>ff9a143f-7744-4d0a-af2b-2e9bfe1ec811</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>tomorrow is a Mega Millions draw day</name>
+      <uid>5cb323c5-770d-4f7b-9b84-8fd923b23b73</uid>
+      <callers>
+        <uid>06f4d07d-b5a6-4802-b273-c93ecac56fa1</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is not the mega millions draw time</name>
+      <uid>d5a344ef-4a91-459e-a6d9-45829fd34739</uid>
+      <callers>
+        <uid>e755c09b-2c5f-4260-83bb-8f920569699f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the mega millions estimated jackpot is displayed on the mega millions thrilling prizes card</name>
+      <uid>b675cf01-ecd2-415e-9667-2dd460bdc1f9</uid>
+      <callers>
+        <uid>e755c09b-2c5f-4260-83bb-8f920569699f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is the mega millions draw time</name>
+      <uid>ca9a66eb-a5e8-46d1-acfb-28145c0d508d</uid>
+      <callers>
+        <uid>e0368e76-ecbb-442b-bcde-cad5ef3ea87b</uid>
+        <uid>61c0f12f-fe56-40b8-98c4-1416d03361e5</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the estimated jackpot on the mega millions thrilling prizes card is in the pending state</name>
+      <uid>811e4a4c-65a7-46c5-b94d-2b7835e83977</uid>
+      <callers>
+        <uid>61c0f12f-fe56-40b8-98c4-1416d03361e5</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the jackpot is displayed in place of the pending state once it comes in</name>
+      <uid>db5cb7cb-15df-44a8-af10-3f752622407c</uid>
+      <callers>
+        <uid>61c0f12f-fe56-40b8-98c4-1416d03361e5</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the estimated cash option is displayed on the mega millions thrilling prizes card</name>
+      <uid>e39ad357-c7fd-43cc-8dfb-3f139eb1c895</uid>
+      <callers>
+        <uid>79ea7d0f-1d39-41c2-97c7-15b941d0bd28</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the estimated cash option is replaced with the pending state on the mega millions thrilling prizes card</name>
+      <uid>1c4e19ca-87e9-4372-99b4-31939227611a</uid>
+      <callers>
+        <uid>e0368e76-ecbb-442b-bcde-cad5ef3ea87b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the estimated cash option replaced the pending state once the results come in</name>
+      <uid>5cc94379-c791-488b-af7f-1f6a0c5be1b5</uid>
+      <callers>
+        <uid>e0368e76-ecbb-442b-bcde-cad5ef3ea87b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is not a Powerball draw day</name>
+      <uid>5da5ac0a-f1dc-45c1-a698-ddc559e74e9e</uid>
+      <callers>
+        <uid>04ed8059-a137-493c-b500-900db0425782</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Powerball thrilling prizes card displays "p1"</name>
+      <uid>39641e9d-e34e-4614-9502-fe7f18a85d11</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>5de7d9d2-b93f-4246-9df5-c9cff4ed1f91</uid>
+        <uid>176e806c-04ab-484e-b04d-12192d144bf4</uid>
+        <uid>04ed8059-a137-493c-b500-900db0425782</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>tomorrow is a Powerball draw day</name>
+      <uid>b4aa37e4-1dfe-438a-804a-6ae65b7064f1</uid>
+      <callers>
+        <uid>176e806c-04ab-484e-b04d-12192d144bf4</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>today is a Powerball draw day</name>
+      <uid>2ed707bf-5da2-49c1-9889-b6a898539a7d</uid>
+      <callers>
+        <uid>5de7d9d2-b93f-4246-9df5-c9cff4ed1f91</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is not the Powerball draw time</name>
+      <uid>52e30573-2b37-4f7d-b77b-ad2579ca20f1</uid>
+      <callers>
+        <uid>aed5344c-113b-43cf-92bc-ffaba2be71ef</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Powerball estimated cash option is displayed on the Powerball thrilling prizes card</name>
+      <uid>1e0ff303-0d96-40e9-9c08-2247c726e7fc</uid>
+      <callers>
+        <uid>f27d29ab-36b8-4689-8fc8-6b3e2c82252e</uid>
+        <uid>aed5344c-113b-43cf-92bc-ffaba2be71ef</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is the Powerball draw time</name>
+      <uid>21ded4b3-961a-47b8-ae70-576693ecad4a</uid>
+      <callers>
+        <uid>59bf6a84-0398-4ad2-bf67-9506c0f805e0</uid>
+        <uid>e5a91639-a6ca-48f1-a78f-04041e110271</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Powerball estimated jackpot on the Powerball thrilling prizes card is replaced with the pending state</name>
+      <uid>1d60581a-61be-423b-9de5-e3c50e5bc178</uid>
+      <callers>
+        <uid>e5a91639-a6ca-48f1-a78f-04041e110271</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Powerball pending state is replaced with the new jackpot when the results come in</name>
+      <uid>6e59bde9-60da-4624-b48a-9425e9bf22e4</uid>
+      <callers>
+        <uid>e5a91639-a6ca-48f1-a78f-04041e110271</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is not a Powerball draw time</name>
+      <uid>55d233c6-8265-4218-845d-76cd0ecc657c</uid>
+      <callers>
+        <uid>f27d29ab-36b8-4689-8fc8-6b3e2c82252e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the estimated cash option on the Powerball thrilling prizes card is replaced with the pending state</name>
+      <uid>7f93b25c-9979-4795-9ea7-7b4a61018370</uid>
+      <callers>
+        <uid>59bf6a84-0398-4ad2-bf67-9506c0f805e0</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the pending state on the Powerball thrilling prizes card is replaced with the new estimated cash option when the results come in</name>
+      <uid>1c811889-3a0a-4311-8124-c8306fcbdb61</uid>
+      <callers>
+        <uid>59bf6a84-0398-4ad2-bf67-9506c0f805e0</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is not a Megabucks Doubler draw day</name>
+      <uid>17cdc990-f81e-4a6b-9cec-f7ab0fd2c6c3</uid>
+      <callers>
+        <uid>6cc6677d-ec73-4659-b604-40723b65ca93</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Megabucks Doubler thrilling prizes card displays "p1"</name>
+      <uid>ce2ca509-c92e-422b-9ef1-c22c3f04201b</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>a38c8947-86e4-4c77-b305-55fc28d90bd9</uid>
+        <uid>6cc6677d-ec73-4659-b604-40723b65ca93</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>It is a Megabucks Doubler draw day</name>
+      <uid>360225ab-6392-46fc-8c88-a1db257ed105</uid>
+      <callers>
+        <uid>a38c8947-86e4-4c77-b305-55fc28d90bd9</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>tomorrow is a Megabucks Doubler draw day</name>
+      <uid>f85c7580-bc75-4d65-8e9d-c7523d4b9097</uid>
+      <callers>
+        <uid>2a82f50a-85a4-4f15-89f1-6cca5f98c079</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the mega millions thrilling prizes carousel card displays "p1"</name>
+      <uid>0f15d97f-ebc8-4239-a56f-3d8cd74090f2</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>2a82f50a-85a4-4f15-89f1-6cca5f98c079</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is not the Megabucks Doubler draw time</name>
+      <uid>e3c527db-a896-45db-9ceb-b22284ff1a3f</uid>
+      <callers>
+        <uid>2dae5b34-a4f5-41d9-b7d9-a774ecf05439</uid>
+        <uid>353fb2e5-a119-492b-82dc-e54ebde71409</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Megabucks Doubler estimated jackpot is displayed on the mega millions thrilling prizes card</name>
+      <uid>a1ffe014-824b-4ec5-bea9-404496baaec6</uid>
+      <callers>
+        <uid>353fb2e5-a119-492b-82dc-e54ebde71409</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>i am on the home screen</name>
+      <uid>c6e660c9-11fe-4675-9733-87749b6507db</uid>
+      <callers>
+        <uid>10c3517e-c3c8-4966-befd-669fbdfd57cc</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is the Mega Millions draw time</name>
+      <uid>b48ff6c5-83f5-4912-94c4-f55c2814fc8e</uid>
+      <callers>
+        <uid>10c3517e-c3c8-4966-befd-669fbdfd57cc</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the mega millions thrilling prizes card displays the pending state</name>
+      <uid>430c1ca2-cba1-4265-8a5d-ad0362c79eff</uid>
+      <callers>
+        <uid>10c3517e-c3c8-4966-befd-669fbdfd57cc</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the mega million thrilling prizes card displays the new estimated jackpot when it comes in</name>
+      <uid>8dd11f4f-efcb-41f1-8ad9-bee37b7f570b</uid>
+      <callers>
+        <uid>10c3517e-c3c8-4966-befd-669fbdfd57cc</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the megabucks doubler thrilling prizes card displays the estimated cash option</name>
+      <uid>0efe6d1f-e9e0-4fd4-9f80-bf421cdd1f81</uid>
+      <callers>
+        <uid>2dae5b34-a4f5-41d9-b7d9-a774ecf05439</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is the Megabucks Doubler draw time</name>
+      <uid>0bdf1ea2-19b0-43a1-931a-c9f982d7ea22</uid>
+      <callers>
+        <uid>838d3710-ae4e-436e-8468-8d993cd69bee</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Megabucks Doubler thrilling prizes card displays the pending state</name>
+      <uid>b8f23642-dd9c-41e5-9498-6b985242d394</uid>
+      <callers>
+        <uid>838d3710-ae4e-436e-8468-8d993cd69bee</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Megabucks Doubler estimated cash option is displayed when the results come in</name>
+      <uid>4fe83b58-dbdb-497d-b85c-e24b172375e4</uid>
+      <callers>
+        <uid>838d3710-ae4e-436e-8468-8d993cd69bee</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>to day is a Mass Cash draw day</name>
+      <uid>4d5ab105-a1de-4ebb-9a94-66798ae8b12e</uid>
+      <callers>
+        <uid>ceba8f77-4bf4-4e75-8a05-62e80411c79f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>"p1" is displayed on the Mass Cash thrilling prizes card</name>
+      <uid>d93c854f-99e9-41aa-9f54-cc2139af347a</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>ceba8f77-4bf4-4e75-8a05-62e80411c79f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is the Mass Cash draw time</name>
+      <uid>c94ff168-e536-4e2d-9f4e-7af6debbb396</uid>
+      <callers>
+        <uid>0ce23144-406e-41ff-b865-1febe969e673</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Mass Cash thrilling prizes card displays "p1"</name>
+      <uid>586fe6a0-7dcd-4709-9ca1-c6d2084078b0</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>0ce23144-406e-41ff-b865-1febe969e673</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Mass Cash thrilling prizes card displays the estimated top prize information</name>
+      <uid>338dae65-3dd2-47dc-a2d6-3042f661f3f5</uid>
+      <callers>
+        <uid>76958962-77ce-44ba-be82-0c93251f5a4b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is a Lucky for Life draw day</name>
+      <uid>06723d17-3c7b-4d1e-9298-7e676d163fca</uid>
+      <callers>
+        <uid>1695ecf2-58ac-43c0-9b0a-a57519aa4183</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Lucky for Life thrilling prizes card displays "p1"</name>
+      <uid>d526f437-ef5c-44f4-9931-96bd659f333a</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>59ecdc86-d1f9-4fbf-92d1-17794e3324f6</uid>
+        <uid>4eecebfc-8b8a-4fa5-bdc6-7e64b8983c7b</uid>
+        <uid>1695ecf2-58ac-43c0-9b0a-a57519aa4183</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>tomorrow is a Lucky for Life draw day</name>
+      <uid>4af4f494-c9d2-4fa7-8f69-7e784e38eb58</uid>
+      <callers>
+        <uid>4eecebfc-8b8a-4fa5-bdc6-7e64b8983c7b</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is not a Lucky for Life draw day</name>
+      <uid>f206f6e6-df0e-41ff-a9fa-a2022dd4a066</uid>
+      <callers>
+        <uid>59ecdc86-d1f9-4fbf-92d1-17794e3324f6</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Lucky for Life thrilling prizes card displays the estimated top prize information</name>
+      <uid>350c8c76-b4a4-48cc-9d30-d98f33103107</uid>
+      <callers>
+        <uid>e217a03b-c302-49b3-8327-fa80a7355198</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is before 12:45pm</name>
+      <uid>118f505e-b95b-4037-9619-07c37fc720f2</uid>
+      <callers>
+        <uid>a4786fdf-e62b-4b43-83a7-46d49fa34d84</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the TNG thrilling prizes card displays "p1"</name>
+      <uid>be6bc5e8-981f-4f61-972f-1a778c2ce0c7</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>6cd49775-7be3-4df3-824b-94f9b24e056d</uid>
+        <uid>57140d3a-4e98-4aeb-8106-cd06e4ea007e</uid>
+        <uid>cdb899d0-3b43-493c-a6a2-508337605068</uid>
+        <uid>a4786fdf-e62b-4b43-83a7-46d49fa34d84</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is between 12:47pm and 7:47pm</name>
+      <uid>cf72fe48-fe83-4c62-be14-9260d707f655</uid>
+      <callers>
+        <uid>cdb899d0-3b43-493c-a6a2-508337605068</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is after 7:47pm</name>
+      <uid>755d82c5-db91-4b8e-ba0b-ef8460235f3c</uid>
+      <callers>
+        <uid>57140d3a-4e98-4aeb-8106-cd06e4ea007e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap the Keno draw results card heading</name>
+      <uid>f893758a-6bec-493d-849a-f13aa4e1ef5a</uid>
+      <callers>
+        <uid>2553af67-d2e9-4df3-8cb4-fd1223ae6718</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Keno game details screen is displayed</name>
+      <uid>275b9926-893e-4964-bbb8-d2ec2c0e90ee</uid>
+      <callers>
+        <uid>9af6b8b5-acfd-40c8-a9ee-c6d7f0d2c3a1</uid>
+        <uid>2553af67-d2e9-4df3-8cb4-fd1223ae6718</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>Whe I click the information icon on the Keno draw results card</name>
+      <uid>a79acb7f-64a7-4e1b-84b0-e12f6ba14d6b</uid>
+      <callers>
+        <uid>9af6b8b5-acfd-40c8-a9ee-c6d7f0d2c3a1</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the most recent Keno draw number is displayed</name>
+      <uid>af2b2d2f-6f03-4080-88cd-43f59ab546f3</uid>
+      <callers>
+        <uid>258fb097-a8e6-4f2e-acf1-da8ccd3b7217</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Keno draw number updates automatically</name>
+      <uid>4f16c123-e70d-4b98-a848-480a725b371b</uid>
+      <callers>
+        <uid>258fb097-a8e6-4f2e-acf1-da8ccd3b7217</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap View Mode on the Keno draw results card</name>
+      <uid>e3baf4f3-68b0-4406-9a82-6ae84ba312c1</uid>
+      <callers>
+        <uid>32655f19-0873-41db-a162-78c25edc4ed7</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Keno View Mode screen is displayed</name>
+      <uid>2cf24694-0cba-4c37-b829-fbaf100c6981</uid>
+      <callers>
+        <uid>32655f19-0873-41db-a162-78c25edc4ed7</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap Ticket Mode on the Keno draw card</name>
+      <uid>755b831b-d655-46a4-b212-dc04ce01c522</uid>
+      <callers>
+        <uid>7286c0ec-e1e9-43a8-aca1-41f5d2eade49</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Keno Ticket Form screen is displayed</name>
+      <uid>c212d5a2-2eaa-41d2-8564-2258de7a3285</uid>
+      <callers>
+        <uid>7286c0ec-e1e9-43a8-aca1-41f5d2eade49</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click Past Results on the Keno draw card</name>
+      <uid>5cfef67c-918a-4069-8c52-625d64a65894</uid>
+      <callers>
+        <uid>830ee3c6-ee77-4f85-bb20-8482c254f2b8</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the Past Results screen is displayed</name>
+      <uid>98e491b4-680c-4810-9f16-6fd6b26a421f</uid>
+      <callers>
+        <uid>8afb54a2-84e6-40ef-88f8-72343ea641e4</uid>
+        <uid>830ee3c6-ee77-4f85-bb20-8482c254f2b8</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>Keno is pre-selected</name>
+      <uid>e7b03abf-bf5e-4e86-ac94-a7007eab5871</uid>
+      <callers>
+        <uid>830ee3c6-ee77-4f85-bb20-8482c254f2b8</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click the All or Nothing draw card heading</name>
+      <uid>63939ec9-4764-41b2-8e45-52b5c718368c</uid>
+      <callers>
+        <uid>8d29b8a8-7a0d-4d26-aeb9-3cf13a839fb8</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the All or Nothing game details screen is displayed</name>
+      <uid>c28a22c0-4ccb-4a05-ae6b-c62cc77606b6</uid>
+      <callers>
+        <uid>31a7d8e8-c328-4338-9caf-81b354f59ad9</uid>
+        <uid>8d29b8a8-7a0d-4d26-aeb9-3cf13a839fb8</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click the information icon on the All or Nothing draw card</name>
+      <uid>67d73670-3413-4ac9-9586-df8826dfa08c</uid>
+      <callers>
+        <uid>31a7d8e8-c328-4338-9caf-81b354f59ad9</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I view the All or Nothing draw card</name>
+      <uid>62f70400-6a3b-4bd6-96b0-5abb8d1cec4f</uid>
+      <callers>
+        <uid>05fa629b-10d5-49a5-b6b1-14f9a8777c07</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the most recent All or Nothing draw number is displayed</name>
+      <uid>4d694062-8fa8-45ef-894b-c2970a0fbe85</uid>
+      <callers>
+        <uid>05fa629b-10d5-49a5-b6b1-14f9a8777c07</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the draw number updates automatically</name>
+      <uid>897ce729-dd9d-4620-a09d-942c515ad8c9</uid>
+      <callers>
+        <uid>05fa629b-10d5-49a5-b6b1-14f9a8777c07</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click View Mode on the All or Nothing draw card</name>
+      <uid>f8fa97b9-261b-461d-9e33-073beaf8c213</uid>
+      <callers>
+        <uid>621085ee-da52-45c2-8f34-d0e97a59b486</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the All or Nothing view mode screen is displayed</name>
+      <uid>7c5c7841-c73e-47c2-8116-7cf29994e141</uid>
+      <callers>
+        <uid>621085ee-da52-45c2-8f34-d0e97a59b486</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click Ticket Mode on the All or Nothing draw card</name>
+      <uid>9dc2db7f-840b-4b35-ad50-e1983ad60b47</uid>
+      <callers>
+        <uid>5d9c9019-ad21-4aae-8d0b-d11f09a54610</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the All or Nothing ticket form screen is displayed</name>
+      <uid>a197f7ed-fb2f-42a9-9755-1341e3dd695d</uid>
+      <callers>
+        <uid>5d9c9019-ad21-4aae-8d0b-d11f09a54610</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click Past Results on the All or Nothing draw card</name>
+      <uid>016c885d-3719-48c9-9fa1-2e4ac60a90a0</uid>
+      <callers>
+        <uid>8afb54a2-84e6-40ef-88f8-72343ea641e4</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>All or Nothing is pre-populated</name>
+      <uid>29e7cfba-a504-46d7-beb7-0ef8dea12714</uid>
+      <callers>
+        <uid>8afb54a2-84e6-40ef-88f8-72343ea641e4</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap the TNG draw card heading</name>
+      <uid>a8e74edf-95cc-4e05-a441-6b11f2c208fa</uid>
+      <callers>
+        <uid>425419c8-5abb-4351-95e1-141b372e9364</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the TNG game details screen is displayed</name>
+      <uid>8af00186-d96c-4096-832c-f880a8157277</uid>
+      <callers>
+        <uid>a04786f2-b940-4e2e-a009-388a24fee9aa</uid>
+        <uid>425419c8-5abb-4351-95e1-141b372e9364</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click the information icon on the TNG draw card</name>
+      <uid>aa346d2e-747d-4ce1-8c7e-c795ed7392fe</uid>
+      <callers>
+        <uid>a04786f2-b940-4e2e-a009-388a24fee9aa</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the left calendar arrow is in an active state</name>
+      <uid>543f57d0-5fdb-4594-9926-ba59644f7e8e</uid>
+      <callers>
+        <uid>f686ddd1-aec9-453a-b2af-d054a1d4dc8c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I haven't changed the date on the TNG calendar</name>
+      <uid>7159b818-c699-4a1d-8318-0da3eca68a84</uid>
+      <callers>
+        <uid>8446d358-e145-41ac-ba26-c737c1ce2fb4</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the right calendar arrow on the TNG draw card is gray and inactive</name>
+      <uid>d76aae25-5a9e-4a74-9c11-56b62d4ed400</uid>
+      <callers>
+        <uid>8446d358-e145-41ac-ba26-c737c1ce2fb4</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I have changed the TNG calendar to a previous date</name>
+      <uid>3de336d4-7c56-435f-a3a6-7e414c2f24ab</uid>
+      <callers>
+        <uid>b6f880fc-e65f-4b6f-acd8-65e62ac44b91</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the right calendar arrow on the TNG draw card is in an active state</name>
+      <uid>e82f7c58-0cb5-4558-a4df-0edf5deaca36</uid>
+      <callers>
+        <uid>b6f880fc-e65f-4b6f-acd8-65e62ac44b91</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I have not changed the TNG calendar date</name>
+      <uid>b10037b1-1aaf-43ba-818c-1a18fe47e2bc</uid>
+      <callers>
+        <uid>d20b5a30-2dc5-41a2-8963-1f4f9f96c41e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the TNG calendar displays the date of the most recent draw</name>
+      <uid>8fe4930e-f4bd-454b-b738-7f82665d6e54</uid>
+      <callers>
+        <uid>d20b5a30-2dc5-41a2-8963-1f4f9f96c41e</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I select a previous draw date on the TNG draw card</name>
+      <uid>b5abd470-46c9-4acc-a735-e4376cfb00dd</uid>
+      <callers>
+        <uid>e960110d-0478-4638-a9ff-50924e87143f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the TNG calendar displays the selected date</name>
+      <uid>9fcb56bd-dcf7-478a-9ef8-2111311effd8</uid>
+      <callers>
+        <uid>e960110d-0478-4638-a9ff-50924e87143f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the TNG results for that date are displayed</name>
+      <uid>5d42a35b-4dff-4e97-af79-7a8df7f74cec</uid>
+      <callers>
+        <uid>e960110d-0478-4638-a9ff-50924e87143f</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I open the calendar on the TNG draw card</name>
+      <uid>6ad6b518-2cef-4d58-add8-43f5c6de8e49</uid>
+      <callers>
+        <uid>1019b90a-24d0-4744-9e78-045e7200f017</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I am unable to select a future date</name>
+      <uid>dac1a47d-bff8-42e4-9f21-881d50ede546</uid>
+      <callers>
+        <uid>1019b90a-24d0-4744-9e78-045e7200f017</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is after 12:47pm</name>
+      <uid>df9399cb-ef74-4a72-b583-c72fc3cb5263</uid>
+      <callers>
+        <uid>3ffb8dd4-9f66-49e3-9df2-9e2c10f36e15</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the TNG midday drawing results are displayed for the current date</name>
+      <uid>70a22a6a-2862-4311-bf82-f1155ab0e5f1</uid>
+      <callers>
+        <uid>3ffb8dd4-9f66-49e3-9df2-9e2c10f36e15</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it is 12:47pm</name>
+      <uid>763fd997-0795-45e4-93c0-6aede69697ee</uid>
+      <callers>
+        <uid>96ba263c-6abd-4e07-8dc2-03680f6ebc34</uid>
+        <uid>1bf5967e-d348-4e01-94b6-f8c406e9bb6c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the TNG draw card midday displays a pending state</name>
+      <uid>2643df9e-b6de-4a08-be36-ba714e89d5ed</uid>
+      <callers>
+        <uid>1bf5967e-d348-4e01-94b6-f8c406e9bb6c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>it auto updates to display the TNG midday results when they come in</name>
+      <uid>9f384259-763a-44dc-bbee-2ea1f1fbfdc4</uid>
+      <callers>
+        <uid>1bf5967e-d348-4e01-94b6-f8c406e9bb6c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the evening section displays "p1"</name>
+      <uid>660e79bb-7396-4bf3-84fb-25219e70eda1</uid>
+      <parameters>
+        <parameter>
+          <name>p1</name>
+          <default_value>
+            <template/>
+          </default_value>
+        </parameter>
+      </parameters>
+      <callers>
+        <uid>1bf5967e-d348-4e01-94b6-f8c406e9bb6c</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click on the TNG draw video link</name>
+      <uid>6776d1d7-2069-4eec-ab59-cd766bd04b69</uid>
+      <callers>
+        <uid>e101b589-7c4c-4131-8b27-8f2fa0e0ee10</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the TNG draw video for that date is displayed</name>
+      <uid>73e4432f-d26c-436b-8e48-36e2e36cf720</uid>
+      <callers>
+        <uid>e101b589-7c4c-4131-8b27-8f2fa0e0ee10</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I click the TNG Midday prize payout link</name>
+      <uid>d44076b8-c170-41ca-a36f-7f3f7674b883</uid>
+      <callers>
+        <uid>152b3cba-ffcd-4256-bb6a-ead3174817fc</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the midday prize payout information for that date is displayed in an overlay</name>
+      <uid>b5a78ddf-ee07-4cb3-8c6a-ea9b33ecf959</uid>
+      <callers>
+        <uid>152b3cba-ffcd-4256-bb6a-ead3174817fc</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the midday draw video link is not displayed while the pending state is displayed</name>
+      <uid>555a0417-66ae-46e2-a05c-40c9ecb833f1</uid>
+      <callers>
+        <uid>96ba263c-6abd-4e07-8dc2-03680f6ebc34</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>the draw video link auto populates once the video is available</name>
+      <uid>7e0c2034-501a-4329-bbc1-e979c16d30fe</uid>
+      <callers>
+        <uid>96ba263c-6abd-4e07-8dc2-03680f6ebc34</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I am not on the homepage</name>
+      <uid>966e4f93-bb84-4b6f-8a73-8fbf21a031e6</uid>
+      <callers>
+        <uid>d040bf24-d257-4ec8-8a1a-852c72ed6bc5</uid>
+      </callers>
+    </actionword>
+    <actionword>
+      <name>I tap on the THELOTTERY logo at top of page</name>
+      <uid>7b92ca0e-a12e-4abd-ac82-f7ed9108db69</uid>
+      <callers>
+        <uid>a3ead769-87c6-4193-8457-661adc6171ce</uid>
+      </callers>
+    </actionword>
+  </actionwords>
+</project>

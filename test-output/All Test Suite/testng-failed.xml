@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://www.masslottery.com/"/>
+  <test thread-count="5" name="ChromeBrowser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="WebProductionTestingReport">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="pastResultsToolsTest"/>
+          <include name="pastResultsKenoAoN"/>
+          <include name="TheNumbersGameCarousel"/>
+          <include name="LuckyForLifeCarousel"/>
+        </methods>
+      </class> <!-- WebProductionTestingReport -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+  <test thread-count="5" name="FirefoxBrowser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="WebProductionTestingReport">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="pastResultsToolsTest"/>
+          <include name="pastResultsKenoAoN"/>
+          <include name="TheNumbersGameCarousel"/>
+          <include name="LuckyForLifeCarousel"/>
+        </methods>
+      </class> <!-- WebProductionTestingReport -->
+    </classes>
+  </test> <!-- FirefoxBrowser(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

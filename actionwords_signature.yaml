@@ -1,0 +1,841 @@
+---
+- name: I have the site open
+  uid: c751b40c-dedc-4196-b323-bd6d87dc6150
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap the logo
+  uid: 0ee050e4-c551-40ca-9413-b3673db918fe
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am navigated to the home page
+  uid: a9be25c6-db90-4006-8afc-4e8047ace2a7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I view the logo
+  uid: 964740cc-abe5-48ad-9e05-0934284793be
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the logo is displayed in the top left corner
+  uid: a4738d57-06dc-43a9-b74d-f1a49c3ca45c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have the MA website open
+  uid: e69e02e3-e180-475c-ae91-0838d00f8116
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on icon Tools
+  uid: fe1d6995-17d0-4b82-aedc-d7e22476ba04
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a dropdown is displayed
+  uid: 60c470f6-f6bd-4d18-a2fb-89e5d4ba51b1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Past Results
+  uid: 622940f6-2951-44ab-81dd-5790ba4b6552
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Past Results page loads
+  uid: 1f886a38-74e3-4c21-ac3c-538043f9502c
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select All or Nothing from the Game dropdown
+  uid: 0fb199ae-23d5-456a-bbc2-7f5ae90b5d2f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Game & Results list is displayed
+  uid: 82ad8f21-8a01-4da8-a70d-05fbb482d66f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: that I have the MA Website open
+  uid: 77062660-5172-4361-9c22-808679dd4fb7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on the Tools icon
+  uid: d5ecc774-a31f-4624-abde-f570495a89b0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I dropdown is displayed
+  uid: 2d2850cd-3f27-46f8-a5e6-8f7db0338d3b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Winners icon
+  uid: 9518892c-bfbc-4675-9a30-4debcc70df36
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Winners page loads
+  uid: 2587dedc-d1af-4643-a3cb-af1991d0d4dd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select 100x from the Game dropdown
+  uid: 01d9ce84-448f-4dbb-bee5-530a1ca8b5c3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select 30 days ago date and today's date
+  uid: 94e930c4-d634-47f3-b9a7-ee8407d69d0c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Winners list is displayed with Date and Prize information
+  uid: 4a2a4f70-3f2f-45ab-b849-46e56c807b6d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Prizes Remaining icon
+  uid: a769ead6-4475-4e38-9dcd-6d0daed4ab3b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Prizes Remaining page loads
+  uid: fa529abe-a341-435a-a183-8621c32884c2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select $2 from the Ticket Cost dropdown
+  uid: e63a402f-a6e5-4373-a2d0-bb97e3684298
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select Top from the Prize Type dropdown
+  uid: 434e3278-5b7a-4c7f-9f50-0663694c68fa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select $9999 or below from the Prize Amount dropdown
+  uid: 82bd8062-0b65-4d19-b285-b17fd5ee8a1c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Prizes Remaining list is displayed with Game, Prize Amount, Start, Claimed,
+    Remaining and Game Details information
+  uid: 5d13bbd3-8c2e-4081-a94d-745ff7126cef
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select the Tools icon
+  uid: b0b43d01-58c8-4c05-beb3-0641c68f0d98
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Location Finder icon
+  uid: 8d58f3ac-1197-4df9-9db7-ecede3d538ed
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Location Finder page loads
+  uid: ef239bf7-72ae-4ef6-b9c6-586b8d21eac6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a know your location pop-up appears
+  uid: 5c079d7d-65b7-4436-8347-fe679e7d6eb8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select Allow
+  uid: 47773a07-1c4b-4b1f-8d90-8ee00c35e2ef
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: my location is displayed on the map
+  uid: 8e1c44d7-b997-4a9e-932e-ab9040d32a46
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I enter my zipcode in the Search by city or ZIP Code
+  uid: f37c688f-a412-483b-b119-79e1c17b6346
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select the Claim a Prize icon
+  uid: b3310e70-7ae4-4794-9d52-971febca789e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Claim a Prize page loads
+  uid: 686d9cb8-a105-491e-a482-1a7e7a337013
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on the Learn More button
+  uid: 98aaf8d0-e22e-4891-a644-4483241dda8b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 2020 Prize Claim page loads
+  uid: 98029fda-9473-4065-a74d-6779309db4c1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select the Games icon
+  uid: d8cd81e8-b351-46b5-bc8f-d9f4f8a9ea6c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Draw and Instants page loads and all of the games display with name, price
+    and prize info
+  uid: 1396f3e0-2a60-4f44-9b58-ea04a4f7704f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap in the Search by game name box
+  uid: f3515f4e-7ce4-4755-85e5-91a628d5c231
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I enter in THE NUMBERS GAME
+  uid: f6b4eb57-0765-4949-9c6d-139a5ca40001
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: THE NUMBERS GAME thumbnail is displayed
+  uid: e7d55ad8-89c8-433f-91d2-9f67b6706ff2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Pull Tabs page loads
+  uid: 93668026-a01d-4a01-b69d-fb15fe4a59c9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Charitable Games icon
+  uid: c0a1e584-371d-4a42-899a-4f8f70fd7e88
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Charitable Games page loads\
+  uid: 106dace9-e4f7-4747-a62f-47524ee7efb6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Season Tickets icon
+  uid: d71203a9-5d88-4a24-a291-6f1120d9dd84
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Seasons Tickets page loads
+  uid: 52e2fef9-4697-467e-8d4f-e5402d5f0368
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: that
+  uid: 2927e239-8a82-4304-9d32-f9db30bbe51e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Promotions icon
+  uid: ce30568e-dc84-45b0-9296-8b601a048113
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Current Promotions icon
+  uid: 21231007-1eae-4186-89af-2630892de128
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Current Promotions page loads
+  uid: d22b647d-4fb4-4a40-8cd2-ba578cb8782c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on VIP Members
+  uid: 70855ab9-fde8-4790-bc65-63e821280fff
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the VIP Members page loads
+  uid: 335f1f8a-f2b2-4dc3-a7ca-d6a17bb527bf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Second Chance icon
+  uid: 3233129c-db50-409e-a7b4-b73c94f72eb3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Second Chance page loads
+  uid: 26be5fc3-9e75-4e55-aa2f-31e755a2afaf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on About icon
+  uid: 6d426ec3-2547-420c-9911-6539cbdb01c0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Support Communities icon
+  uid: ce9067a1-7ed5-4e46-8a3e-c41bffc296fd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Support Communities page loads with Fiscal Year and Ne Profit information
+  uid: 1e332f78-b702-4af2-ade1-d2ee571e9068
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on the Winning Stories icon
+  uid: 4378914b-0a44-41c1-916d-3de7a6be5a91
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on News icon
+  uid: ba64fd67-fb19-4784-adbc-217eef7e4d63
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the News page loads
+  uid: a0452849-58a2-474d-85b9-b099ff0d4048
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on the About icon
+  uid: 74462af7-02e4-4304-aee7-42bcd991652b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Winning Stories page loads
+  uid: 9b7d09e3-d670-4a5d-b6eb-345cbd736531
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on The Lottery icon
+  uid: 9d6dd7ec-90e3-4e58-9e52-9cb69775c15f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the The Lottery page loads
+  uid: 92aaf434-0d6e-44eb-8765-312176077e67
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on Responsible Gaming
+  uid: a43555dd-207f-41ae-8fd3-5a7f0e9d2f7b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Responsible Gaming page loads
+  uid: 7dfd4d3e-c873-410f-a3cb-956fd3adcbd4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on For Agents icon
+  uid: 7b533343-2f91-4e7a-97b8-947bd4ee63ad
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the For Agents page loads
+  uid: c4bfcf6c-7de8-461d-b1b9-e8c22a2fc52d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on More... icon
+  uid: d8fb9c54-dcab-49e4-8862-3d74c4d35468
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the About page loads
+  uid: 1980c892-ad2f-4362-9c9d-16d2b6c35a1e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on My Recent Tickets button
+  uid: 81a62465-a8fc-42aa-94f2-df058c7eabdd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: My Recent Tickets page loads
+  uid: 8dc5d82e-95ae-4877-862f-bb50f0190f9f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a message You have no recent tickets.  Play a To-Go game in Ticket Mode to
+    get started. is displayed
+  uid: 387b766a-9eda-4c8f-9c06-54bf0bef4fc7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap My Recent Tickets icon
+  uid: e2ac63d7-5372-4068-86f9-96d5918c81ce
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: My Recent Tickets page loads with ticket information
+  uid: 90910ef3-7efd-4ade-8b8d-380234143d86
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on the THELOTTERY logo at top pf page
+  uid: f9a5b5d7-676b-4c3c-838e-1ed2ebbc4447
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the MA home page loads and Thrilling Prizes heading is displayed
+  uid: b3fbaead-c9e6-4b68-a837-e60b03deef4d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the MA home page loads and Thrilling prizes left arrow is disabled by default
+  uid: 0ba80e23-3da1-4375-a62f-adbd14e27ea0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the MA home page loads and Thrilling prizes right arrow is enabled by default
+  uid: b176d616-7d3f-4a46-ad33-9a68f75ac881
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I slide the Thrilling Prizes slider to the right
+  uid: 5eee91a2-a394-46af-806d-a64a2a475151
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the right arrow is disabled and inactive
+  uid: a087c6c6-2d06-48d2-a84e-65a612098207
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am on the home screen
+  uid: 5b25cc81-40a0-4576-a2fb-8f60474c6ae3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap the message banner
+  uid: 494b3daa-a559-4861-aeea-0a76f6460f24
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am navigated to the appropriate corresponding page
+  uid: a6c2c71a-86bc-4dd4-b7b4-eb129ead11fa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there is a message banner
+  uid: bcb86f05-b612-4157-af1e-80386de24d26
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap the message banner X
+  uid: 83acdfdd-075e-4e0e-a208-58c1a98ddeaa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the message banner is no longer displayed
+  uid: af0e9385-6177-44c2-86bb-12a6523a517d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I view the carousel
+  uid: e2c65afa-4c7b-44fb-a86b-d3c6fc682617
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the carousel rotates every 5 seconds
+  uid: 04661572-1b3b-485c-a8c1-f271be323e5e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the carousel rotates
+  uid: 0f3c2f69-660a-4f82-9a73-885abdd9a567
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the carousel navigation circle rotates with the image
+  uid: 65fe602a-1376-4199-acc4-294f12cdeccc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click a carousel image
+  uid: ff57226b-5b45-4d8a-b489-db9454809d28
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have scrolled the thrilling prizes carousel to the right
+  uid: e69456f5-dda8-4e5a-bf19-34883b3d238d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap the left arrow
+  uid: 94e6ade0-7153-4647-84cb-583ad0c2bda9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the thrilling prizes carousel scrolls backward
+  uid: 3b173457-fa7f-4392-9bed-9c48791dd289
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is not a Mega Millions draw day
+  uid: 794c8ecd-1c1e-4b39-b02c-ceaa7050dad3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the mega millions thrilling prizes carousel displays "p1"
+  uid: 577c536a-0935-4030-a892-58c013a838d6
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is a Mega Millions draw day
+  uid: ffc608f2-3cfb-432d-8025-94f98511ee9b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the mega millions thrilling prizes card displays "p1"
+  uid: 0cadf3a5-83b5-4c9e-8167-e3f5c5c6cc05
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: tomorrow is a Mega Millions draw day
+  uid: 5cb323c5-770d-4f7b-9b84-8fd923b23b73
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is not the mega millions draw time
+  uid: d5a344ef-4a91-459e-a6d9-45829fd34739
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the mega millions estimated jackpot is displayed on the mega millions thrilling
+    prizes card
+  uid: b675cf01-ecd2-415e-9667-2dd460bdc1f9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is the mega millions draw time
+  uid: ca9a66eb-a5e8-46d1-acfb-28145c0d508d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the estimated jackpot on the mega millions thrilling prizes card is in the
+    pending state
+  uid: 811e4a4c-65a7-46c5-b94d-2b7835e83977
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the jackpot is displayed in place of the pending state once it comes in
+  uid: db5cb7cb-15df-44a8-af10-3f752622407c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the estimated cash option is displayed on the mega millions thrilling prizes
+    card
+  uid: e39ad357-c7fd-43cc-8dfb-3f139eb1c895
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the estimated cash option is replaced with the pending state on the mega millions
+    thrilling prizes card
+  uid: 1c4e19ca-87e9-4372-99b4-31939227611a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the estimated cash option replaced the pending state once the results come
+    in
+  uid: 5cc94379-c791-488b-af7f-1f6a0c5be1b5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is not a Powerball draw day
+  uid: 5da5ac0a-f1dc-45c1-a698-ddc559e74e9e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Powerball thrilling prizes card displays "p1"
+  uid: 39641e9d-e34e-4614-9502-fe7f18a85d11
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: tomorrow is a Powerball draw day
+  uid: b4aa37e4-1dfe-438a-804a-6ae65b7064f1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: today is a Powerball draw day
+  uid: 2ed707bf-5da2-49c1-9889-b6a898539a7d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is not the Powerball draw time
+  uid: 52e30573-2b37-4f7d-b77b-ad2579ca20f1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Powerball estimated cash option is displayed on the Powerball thrilling
+    prizes card
+  uid: 1e0ff303-0d96-40e9-9c08-2247c726e7fc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is the Powerball draw time
+  uid: 21ded4b3-961a-47b8-ae70-576693ecad4a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Powerball estimated jackpot on the Powerball thrilling prizes card is
+    replaced with the pending state
+  uid: 1d60581a-61be-423b-9de5-e3c50e5bc178
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Powerball pending state is replaced with the new jackpot when the results
+    come in
+  uid: 6e59bde9-60da-4624-b48a-9425e9bf22e4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is not a Powerball draw time
+  uid: 55d233c6-8265-4218-845d-76cd0ecc657c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the estimated cash option on the Powerball thrilling prizes card is replaced
+    with the pending state
+  uid: 7f93b25c-9979-4795-9ea7-7b4a61018370
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the pending state on the Powerball thrilling prizes card is replaced with
+    the new estimated cash option when the results come in
+  uid: 1c811889-3a0a-4311-8124-c8306fcbdb61
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is not a Megabucks Doubler draw day
+  uid: 17cdc990-f81e-4a6b-9cec-f7ab0fd2c6c3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Megabucks Doubler thrilling prizes card displays "p1"
+  uid: ce2ca509-c92e-422b-9ef1-c22c3f04201b
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: It is a Megabucks Doubler draw day
+  uid: 360225ab-6392-46fc-8c88-a1db257ed105
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: tomorrow is a Megabucks Doubler draw day
+  uid: f85c7580-bc75-4d65-8e9d-c7523d4b9097
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the mega millions thrilling prizes carousel card displays "p1"
+  uid: 0f15d97f-ebc8-4239-a56f-3d8cd74090f2
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is not the Megabucks Doubler draw time
+  uid: e3c527db-a896-45db-9ceb-b22284ff1a3f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Megabucks Doubler estimated jackpot is displayed on the mega millions
+    thrilling prizes card
+  uid: a1ffe014-824b-4ec5-bea9-404496baaec6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: i am on the home screen
+  uid: c6e660c9-11fe-4675-9733-87749b6507db
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is the Mega Millions draw time
+  uid: b48ff6c5-83f5-4912-94c4-f55c2814fc8e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the mega millions thrilling prizes card displays the pending state
+  uid: 430c1ca2-cba1-4265-8a5d-ad0362c79eff
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the mega million thrilling prizes card displays the new estimated jackpot
+    when it comes in
+  uid: 8dd11f4f-efcb-41f1-8ad9-bee37b7f570b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the megabucks doubler thrilling prizes card displays the estimated cash option
+  uid: 0efe6d1f-e9e0-4fd4-9f80-bf421cdd1f81
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is the Megabucks Doubler draw time
+  uid: 0bdf1ea2-19b0-43a1-931a-c9f982d7ea22
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Megabucks Doubler thrilling prizes card displays the pending state
+  uid: b8f23642-dd9c-41e5-9498-6b985242d394
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Megabucks Doubler estimated cash option is displayed when the results
+    come in
+  uid: 4fe83b58-dbdb-497d-b85c-e24b172375e4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: to day is a Mass Cash draw day
+  uid: 4d5ab105-a1de-4ebb-9a94-66798ae8b12e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" is displayed on the Mass Cash thrilling prizes card'
+  uid: d93c854f-99e9-41aa-9f54-cc2139af347a
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is the Mass Cash draw time
+  uid: c94ff168-e536-4e2d-9f4e-7af6debbb396
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Mass Cash thrilling prizes card displays "p1"
+  uid: 586fe6a0-7dcd-4709-9ca1-c6d2084078b0
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Mass Cash thrilling prizes card displays the estimated top prize information
+  uid: 338dae65-3dd2-47dc-a2d6-3042f661f3f5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is a Lucky for Life draw day
+  uid: 06723d17-3c7b-4d1e-9298-7e676d163fca
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Lucky for Life thrilling prizes card displays "p1"
+  uid: d526f437-ef5c-44f4-9931-96bd659f333a
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: tomorrow is a Lucky for Life draw day
+  uid: 4af4f494-c9d2-4fa7-8f69-7e784e38eb58
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is not a Lucky for Life draw day
+  uid: f206f6e6-df0e-41ff-a9fa-a2022dd4a066
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Lucky for Life thrilling prizes card displays the estimated top prize
+    information
+  uid: 350c8c76-b4a4-48cc-9d30-d98f33103107
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is before 12:45pm
+  uid: 118f505e-b95b-4037-9619-07c37fc720f2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the TNG thrilling prizes card displays "p1"
+  uid: be6bc5e8-981f-4f61-972f-1a778c2ce0c7
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is between 12:47pm and 7:47pm
+  uid: cf72fe48-fe83-4c62-be14-9260d707f655
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is after 7:47pm
+  uid: 755d82c5-db91-4b8e-ba0b-ef8460235f3c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap the Keno draw results card heading
+  uid: f893758a-6bec-493d-849a-f13aa4e1ef5a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Keno game details screen is displayed
+  uid: 275b9926-893e-4964-bbb8-d2ec2c0e90ee
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Whe I click the information icon on the Keno draw results card
+  uid: a79acb7f-64a7-4e1b-84b0-e12f6ba14d6b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the most recent Keno draw number is displayed
+  uid: af2b2d2f-6f03-4080-88cd-43f59ab546f3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Keno draw number updates automatically
+  uid: 4f16c123-e70d-4b98-a848-480a725b371b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap View Mode on the Keno draw results card
+  uid: e3baf4f3-68b0-4406-9a82-6ae84ba312c1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Keno View Mode screen is displayed
+  uid: 2cf24694-0cba-4c37-b829-fbaf100c6981
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap Ticket Mode on the Keno draw card
+  uid: 755b831b-d655-46a4-b212-dc04ce01c522
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Keno Ticket Form screen is displayed
+  uid: c212d5a2-2eaa-41d2-8564-2258de7a3285
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click Past Results on the Keno draw card
+  uid: 5cfef67c-918a-4069-8c52-625d64a65894
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Past Results screen is displayed
+  uid: 98e491b4-680c-4810-9f16-6fd6b26a421f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Keno is pre-selected
+  uid: e7b03abf-bf5e-4e86-ac94-a7007eab5871
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click the All or Nothing draw card heading
+  uid: 63939ec9-4764-41b2-8e45-52b5c718368c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the All or Nothing game details screen is displayed
+  uid: c28a22c0-4ccb-4a05-ae6b-c62cc77606b6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click the information icon on the All or Nothing draw card
+  uid: 67d73670-3413-4ac9-9586-df8826dfa08c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I view the All or Nothing draw card
+  uid: 62f70400-6a3b-4bd6-96b0-5abb8d1cec4f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the most recent All or Nothing draw number is displayed
+  uid: 4d694062-8fa8-45ef-894b-c2970a0fbe85
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the draw number updates automatically
+  uid: 897ce729-dd9d-4620-a09d-942c515ad8c9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click View Mode on the All or Nothing draw card
+  uid: f8fa97b9-261b-461d-9e33-073beaf8c213
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the All or Nothing view mode screen is displayed
+  uid: 7c5c7841-c73e-47c2-8116-7cf29994e141
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click Ticket Mode on the All or Nothing draw card
+  uid: 9dc2db7f-840b-4b35-ad50-e1983ad60b47
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the All or Nothing ticket form screen is displayed
+  uid: a197f7ed-fb2f-42a9-9755-1341e3dd695d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click Past Results on the All or Nothing draw card
+  uid: 016c885d-3719-48c9-9fa1-2e4ac60a90a0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: All or Nothing is pre-populated
+  uid: 29e7cfba-a504-46d7-beb7-0ef8dea12714
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap the TNG draw card heading
+  uid: a8e74edf-95cc-4e05-a441-6b11f2c208fa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the TNG game details screen is displayed
+  uid: 8af00186-d96c-4096-832c-f880a8157277
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click the information icon on the TNG draw card
+  uid: aa346d2e-747d-4ce1-8c7e-c795ed7392fe
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the left calendar arrow is in an active state
+  uid: 543f57d0-5fdb-4594-9926-ba59644f7e8e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I haven't changed the date on the TNG calendar
+  uid: 7159b818-c699-4a1d-8318-0da3eca68a84
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the right calendar arrow on the TNG draw card is gray and inactive
+  uid: d76aae25-5a9e-4a74-9c11-56b62d4ed400
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have changed the TNG calendar to a previous date
+  uid: 3de336d4-7c56-435f-a3a6-7e414c2f24ab
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the right calendar arrow on the TNG draw card is in an active state
+  uid: e82f7c58-0cb5-4558-a4df-0edf5deaca36
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have not changed the TNG calendar date
+  uid: b10037b1-1aaf-43ba-818c-1a18fe47e2bc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the TNG calendar displays the date of the most recent draw
+  uid: 8fe4930e-f4bd-454b-b738-7f82665d6e54
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select a previous draw date on the TNG draw card
+  uid: b5abd470-46c9-4acc-a735-e4376cfb00dd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the TNG calendar displays the selected date
+  uid: 9fcb56bd-dcf7-478a-9ef8-2111311effd8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the TNG results for that date are displayed
+  uid: 5d42a35b-4dff-4e97-af79-7a8df7f74cec
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I open the calendar on the TNG draw card
+  uid: 6ad6b518-2cef-4d58-add8-43f5c6de8e49
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am unable to select a future date
+  uid: dac1a47d-bff8-42e4-9f21-881d50ede546
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is after 12:47pm
+  uid: df9399cb-ef74-4a72-b583-c72fc3cb5263
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the TNG midday drawing results are displayed for the current date
+  uid: 70a22a6a-2862-4311-bf82-f1155ab0e5f1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it is 12:47pm
+  uid: 763fd997-0795-45e4-93c0-6aede69697ee
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the TNG draw card midday displays a pending state
+  uid: 2643df9e-b6de-4a08-be36-ba714e89d5ed
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: it auto updates to display the TNG midday results when they come in
+  uid: 9f384259-763a-44dc-bbee-2ea1f1fbfdc4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the evening section displays "p1"
+  uid: 660e79bb-7396-4bf3-84fb-25219e70eda1
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click on the TNG draw video link
+  uid: 6776d1d7-2069-4eec-ab59-cd766bd04b69
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the TNG draw video for that date is displayed
+  uid: 73e4432f-d26c-436b-8e48-36e2e36cf720
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click the TNG Midday prize payout link
+  uid: d44076b8-c170-41ca-a36f-7f3f7674b883
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the midday prize payout information for that date is displayed in an overlay
+  uid: b5a78ddf-ee07-4cb3-8c6a-ea9b33ecf959
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the midday draw video link is not displayed while the pending state is displayed
+  uid: 555a0417-66ae-46e2-a05c-40c9ecb833f1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the draw video link auto populates once the video is available
+  uid: 7e0c2034-501a-4329-bbc1-e979c16d30fe
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am not on the homepage
+  uid: 966e4f93-bb84-4b6f-8a73-8fbf21a031e6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I tap on the THELOTTERY logo at top of page
+  uid: 7b92ca0e-a12e-4abd-ac82-f7ed9108db69
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
