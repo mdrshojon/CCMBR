@@ -556,12 +556,12 @@ public class Actionwords {
         System.out.println (megaMillionsJackpot);
 
     }
-
+/*
     public void itIsTheMegaMillionsDrawTime() {
         String megaDrawTPC = driver.findElement (By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[1]/div[1]/a/div/p")).getText();
         System.out.println (megaDrawTPC);
     }
-
+*/
     public void theEstimatedJackpotOnTheMegaMillionsThrillingPrizesCardIsInThePendingState() {
         String megaDrawTPC = driver.findElement (By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[1]/div[1]/a/div/p")).getText();
         System.out.println (megaDrawTPC);
@@ -1098,5 +1098,8 @@ public class Actionwords {
 
     public void iTapOnTheTHELOTTERYLogoAtTopOfPage() {
 
+    }
+
+    public void itIsTheMegaMillionsDrawTime() {
     }
 }

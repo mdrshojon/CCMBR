@@ -383,6 +383,7 @@ public void iSelectTheGamesIcon () {
 
     @Then(" a know your location pop-up appears")
     public void aKnowYourLocationPopupAppears() {
+        
     }
 
     @And(" I select Allow")
@@ -422,6 +423,130 @@ public void iSelectTheGamesIcon () {
         String prizeClaimHelp = driver.getTitle();
         Assert.assertEquals(" What documentation do I need to claim a prize of $601 or more? : Mass Lottery Helpdesk ", prizeClaimHelp);
     }
+
+    @And("to day is a Mass Cash draw day")
+    public void toDayIsAMassCashDrawDay() {
+    }
+
+    @When("I tap the Keno draw results card heading")
+    public void iTapTheKenoDrawResultsCardHeading() {
+        
+    }
+
+    @Then("the Keno game details screen is displayed")
+    public void theKenoGameDetailsScreenIsDisplayed() {
+        
+    }
+
+    @And("Whe I click the information icon on the Keno draw results card")
+    public void wheIClickTheInformationIconOnTheKenoDrawResultsCard() {
+        
+    }
+
+    @Then("the most recent Keno draw number is displayed")
+    public void theMostRecentKenoDrawNumberIsDisplayed() {
+        
+    }
+
+    @And("the Keno draw number updates automatically")
+    public void theKenoDrawNumberUpdatesAutomatically() {
+        
+        
+    }
+
+    @Then("the Keno View Mode screen is displayed")
+    public void theKenoViewModeScreenIsDisplayed() {
+        
+    }
+
+    @When("I tap View Mode on the Keno draw results card")
+    public void iTapViewModeOnTheKenoDrawResultsCard() {
+        
+    }
+
+    @When("I tap Ticket Mode on the Keno draw card")
+    public void iTapTicketModeOnTheKenoDrawCard() {
+        
+    }
+
+    @Then("the Keno Ticket Form screen is displayed")
+    public void theKenoTicketFormScreenIsDisplayed() {
+        
+    }
+
+    @When("I click Past Results on the Keno draw card")
+    public void iClickPastResultsOnTheKenoDrawCard() {
+        
+    }
+
+    @And("Keno is pre-selected")
+    public void kenoIsPreSelected() {
+        
+    }
+
+    @And("tomorrow is a Megabucks Doubler draw day")
+    public void tomorrowIsAMegabucksDoublerDrawDay() {
+        
+    }
+
+    @And("It is a Megabucks Doubler draw day")
+    public void itIsAMegabucksDoublerDrawDay() {
+    }
+
+    @Then("the mega millions thrilling prizes carousel card displays {string}")
+    public void theMegaMillionsThrillingPrizesCarouselCardDisplays(String arg0) {
+        
+    }
+
+    @And("it is not the Megabucks Doubler draw time")
+    public void itIsNotTheMegabucksDoublerDrawTime() {
+        
+    }
+
+    @Then("the Megabucks Doubler estimated jackpot is displayed on the mega millions thrilling prizes card")
+    public void theMegabucksDoublerEstimatedJackpotIsDisplayedOnTheMegaMillionsThrillingPrizesCard() {
+        
+    }
+
+    @Given("i am on the home screen")
+    public void iAmOnHomeScreen() {
+        
+    }
+
+    @And("it is the Mega Millions draw time")
+    public void itIsTheMegaMillionsDrawTime() {
+        
+    }
+
+    @Then("the mega millions thrilling prizes card displays the pending state")
+    public void theMegaMillionsThrillingPrizesCardDisplaysThePendingState() {
+        
+    }
+
+    @And("the mega million thrilling prizes card displays the new estimated jackpot when it comes in")
+    public void theMegaMillionThrillingPrizesCardDisplaysTheNewEstimatedJackpotWhenItComesIn() {
+        
+    }
+
+    @Then("the megabucks doubler thrilling prizes card displays the estimated cash option")
+    public void theMegabucksDoublerThrillingPrizesCardDisplaysTheEstimatedCashOption() {
+        
+    }
+
+    @And("it is the Megabucks Doubler draw time")
+    public void itIsTheMegabucksDoublerDrawTime() {
+        
+    }
+
+    @Then("the Megabucks Doubler thrilling prizes card displays the pending state")
+    public void theMegabucksDoublerThrillingPrizesCardDisplaysThePendingState() {
+        
+    }
+
+    @And("the Megabucks Doubler estimated cash option is displayed when the results come in")
+    public void theMegabucksDoublerEstimatedCashOptionIsDisplayedWhenTheResultsComeIn() {
+    }
 }
+
 
 
