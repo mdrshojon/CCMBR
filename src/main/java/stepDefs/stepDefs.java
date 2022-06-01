@@ -426,125 +426,418 @@ public void iSelectTheGamesIcon () {
 
     @And("to day is a Mass Cash draw day")
     public void toDayIsAMassCashDrawDay() {
+        String massCashDraw =driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[4]/div[1]/a/div/p")).getText();
+        System.out.println(massCashDraw);
     }
 
     @When("I tap the Keno draw results card heading")
     public void iTapTheKenoDrawResultsCardHeading() {
-        
+        driver.findElement(By.xpath("//a[@aria-label='More info for Keno']")).click();
     }
 
     @Then("the Keno game details screen is displayed")
     public void theKenoGameDetailsScreenIsDisplayed() {
-        
+        String kenoDetails = driver.getTitle();
+        Assert.assertEquals ("Keno | Games | Massachusetts Lottery",kenoDetails);
+
     }
 
     @And("Whe I click the information icon on the Keno draw results card")
     public void wheIClickTheInformationIconOnTheKenoDrawResultsCard() {
-        
+        driver.findElement(By.xpath("//a[@aria-label='More info for Keno']")).click();
     }
 
     @Then("the most recent Keno draw number is displayed")
     public void theMostRecentKenoDrawNumberIsDisplayed() {
-        
+        String kenoRecent = driver.findElement(By.xpath("//*[@id='main-content']/div/div[3]/div/div[1]/div/div[1]")).getText();
+        System.out.println(kenoRecent);
     }
 
     @And("the Keno draw number updates automatically")
     public void theKenoDrawNumberUpdatesAutomatically() {
-        
+        String kenoDraw = driver.findElement(By.xpath("//*[@id='main-content']/div/div[3]/div/div[1]/div/div[1]/span")).getText();
+        System.out.println(kenoDraw);
         
     }
 
     @Then("the Keno View Mode screen is displayed")
     public void theKenoViewModeScreenIsDisplayed() {
-        
+        String kenoViewModeTitle = driver.findElement (By.xpath("//*[@id='main-content']/div[1]/div[1]/div")).getText();
+        Assert.assertEquals ("Keno View Mode", kenoViewModeTitle);
+
+
     }
 
     @When("I tap View Mode on the Keno draw results card")
     public void iTapViewModeOnTheKenoDrawResultsCard() {
-        
+        driver.findElement(By.xpath("//*[@id='main-content']/div/div[3]/div/div[1]/div/div[2]/a[1]")).click();
+
     }
 
     @When("I tap Ticket Mode on the Keno draw card")
     public void iTapTicketModeOnTheKenoDrawCard() {
-        
+
+        driver.findElement(By.xpath("//*[@id='main-content']/div/div[3]/div/div[1]/div/div[2]/a[2]")).click();
+
     }
 
     @Then("the Keno Ticket Form screen is displayed")
     public void theKenoTicketFormScreenIsDisplayed() {
-        
+        String kenoTixModeTitle = driver.findElement (By.xpath("//*[@id='main-content']/div[1]/div[1]/div")).getText();
+        Assert.assertEquals ("Keno Ticket Form", kenoTixModeTitle);
+
     }
 
     @When("I click Past Results on the Keno draw card")
     public void iClickPastResultsOnTheKenoDrawCard() {
-        
+        driver.findElement(By.xpath("//*[@id='main-content']/div/div[3]/div/div[1]/div/div[3]/a")).click();
     }
 
     @And("Keno is pre-selected")
     public void kenoIsPreSelected() {
-        
+        String kenoIsPreselected = driver.findElement (By.xpath ("//*[@id='main-content']/div/div[1]/div[1]/select")).getText();
+        Assert.assertEquals ("Keno",kenoIsPreselected);
     }
 
     @And("tomorrow is a Megabucks Doubler draw day")
     public void tomorrowIsAMegabucksDoublerDrawDay() {
-        
+
+        String megaBucksDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[1]/a/div/p")).getText();
+        System.out.println (megaBucksDrawTPC);
+
+
     }
 
     @And("It is a Megabucks Doubler draw day")
     public void itIsAMegabucksDoublerDrawDay() {
+        String megaBucksDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[1]/a/div/p")).getText();
+        System.out.println (megaBucksDrawTPC);
     }
 
     @Then("the mega millions thrilling prizes carousel card displays {string}")
     public void theMegaMillionsThrillingPrizesCarouselCardDisplays(String arg0) {
-        
+        Boolean mbucksDoublerTPC = driver.findElement (By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[1]/a/div/h4")).isDisplayed();
+        System.out.println(mbucksDoublerTPC);
+
     }
 
     @And("it is not the Megabucks Doubler draw time")
     public void itIsNotTheMegabucksDoublerDrawTime() {
-        
+        String megaBucksDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[1]/a/div/p")).getText();
+        System.out.println (megaBucksDrawTPC);
     }
 
     @Then("the Megabucks Doubler estimated jackpot is displayed on the mega millions thrilling prizes card")
     public void theMegabucksDoublerEstimatedJackpotIsDisplayedOnTheMegaMillionsThrillingPrizesCard() {
-        
+        String estCashOptionResults = driver.findElement (By.xpath ("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[2]/p[2]")).getText();
+        System.out.println(estCashOptionResults);
+
     }
 
     @Given("i am on the home screen")
     public void iAmOnHomeScreen() {
-        
+        System.out.println("Making sure we are at the right site!");
+        String homeTitle = driver.getTitle();
+        Assert.assertEquals("Home | Massachusetts Lottery", homeTitle);
+
     }
 
     @And("it is the Mega Millions draw time")
     public void itIsTheMegaMillionsDrawTime() {
-        
+        String megaBucksDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[1]/a/div/p")).getText();
+        System.out.println (megaBucksDrawTPC);
     }
 
     @Then("the mega millions thrilling prizes card displays the pending state")
     public void theMegaMillionsThrillingPrizesCardDisplaysThePendingState() {
-        
+        String estCashOptionResults = driver.findElement (By.xpath ("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[2]/p[2]")).getText();
+        System.out.println(estCashOptionResults);
     }
 
     @And("the mega million thrilling prizes card displays the new estimated jackpot when it comes in")
     public void theMegaMillionThrillingPrizesCardDisplaysTheNewEstimatedJackpotWhenItComesIn() {
-        
+        String estCashOptionResults = driver.findElement (By.xpath ("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[2]/p[2]")).getText();
+        System.out.println(estCashOptionResults);
     }
 
     @Then("the megabucks doubler thrilling prizes card displays the estimated cash option")
     public void theMegabucksDoublerThrillingPrizesCardDisplaysTheEstimatedCashOption() {
-        
+        String estCashOptionResults = driver.findElement (By.xpath ("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[2]/p[2]")).getText();
+        System.out.println(estCashOptionResults);
     }
 
     @And("it is the Megabucks Doubler draw time")
     public void itIsTheMegabucksDoublerDrawTime() {
-        
+        String megaBucksDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[4]/div[1]/a/div/p")).getText();
+        System.out.println (megaBucksDrawTPC);
     }
 
     @Then("the Megabucks Doubler thrilling prizes card displays the pending state")
+
     public void theMegabucksDoublerThrillingPrizesCardDisplaysThePendingState() {
-        
+        String mbucksDoubler = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[1]/a/div/p")).getText();
+        System.out.println(mbucksDoubler);
+
     }
 
     @And("the Megabucks Doubler estimated cash option is displayed when the results come in")
     public void theMegabucksDoublerEstimatedCashOptionIsDisplayedWhenTheResultsComeIn() {
+
+        String massCashJackpot =driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[4]/div[1]/div[2]/p[2]")).getText();
+        System.out.println(massCashJackpot);
+
+    }
+    @And("it is before {int}:{int}pm")
+    public void itIsBeforePm(int arg0, int arg1) {
+    }
+
+    @And("it is not a Powerball draw day")
+    public void itIsNotAPowerballDrawDay() {
+        String powerballDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[1]/a/div/p")).getText();
+        System.out.println (powerballDrawTPC);
+    }
+
+    @Then("the Powerball thrilling prizes card displays {string}")
+    public void thePowerballThrillingPrizesCardDisplaysP1(String p1) {
+
+        Boolean powerballTPC = driver.findElement (By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[1]/a/div/h4")).isDisplayed();
+        System.out.println(powerballTPC);
+
+    }
+
+    @And("tomorrow is a Powerball draw day")
+    public void tomorrowIsAPowerballDrawDay() {
+
+        String powerballDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[1]/a/div/p")).getText();
+        System.out.println (powerballDrawTPC);
+
+
+    }
+    @And("today is a Powerball draw day")
+    public void todayIsAPowerballDrawDay() {
+
+        String powerballDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[1]/a/div/p")).getText();
+        System.out.println (powerballDrawTPC);
+
+
+    }
+
+    @And("it is not the Powerball draw time")
+    public void itIsNotThePowerballDrawTime() {
+
+        String powerballDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[1]/a/div/p")).getText();
+        System.out.println (powerballDrawTPC);
+
+
+    }
+
+    @Then("the Powerball estimated cash option is displayed on the Powerball thrilling prizes card")
+    public void thePowerballEstimatedCashOptionIsDisplayedOnThePowerballThrillingPrizesCard() {
+
+        String estCashOptionResults = driver.findElement (By.xpath ("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[2]/p[2]")).getText();
+        System.out.println(estCashOptionResults);
+
+    }
+
+    @And("it is the Powerball draw time")
+    public void itIsThePowerballDrawTime() {
+
+        String powerballDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[1]/a/div/p")).getText();
+        System.out.println (powerballDrawTPC);
+
+    }
+
+    @And("it is not a Powerball draw time")
+    public void itIsNotAPowerballDrawTime() {
+        String powerballDrawTPC = driver.findElement (By.xpath
+                ("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[1]/a/div/p")).getText();
+        System.out.println (powerballDrawTPC);
+    }
+
+    @Then("the Powerball estimated jackpot on the Powerball thrilling prizes card is replaced with the pending state")
+    public void thePowerballEstimatedJackpotOnThePowerballThrillingPrizesCardIsReplacedWithThePendingState() {
+
+        String estCashOptionResults = driver.findElement (By.xpath ("//*[@id='main-content']/div/div[2]/div/div[2]/div[2]/div[2]/p[2]")).getText();
+        System.out.println(estCashOptionResults);
+    }
+
+    @And("it is between {int}:{int}pm and {int}:{int}pm")
+    public void itIsBetweenPmAndPm(int arg0, int arg1, int arg2, int arg3) {
+        
+    }
+
+    @Then("the TNG thrilling prizes card displays {string}")
+    public void theTNGThrillingPrizesCardDisplaysP1(String p1) {
+
+        String tngJackpot =driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[6]/div[1]/div[2]/p[2]")).getText();
+        System.out.println(tngJackpot);
+
+    }
+
+    @And("it is after {int}:{int}pm")
+    public void itIsAfterPm(int arg0, int arg1) {
+        
+    }
+
+    @When("I tap the TNG draw card heading")
+    public void iTapTheTNGDrawCardHeading() {
+        driver.findElement(By.xpath("//a[@aria-label='More info for The Numbers Game']")).click();
+    }
+
+    @Then("the TNG game details screen is displayed")
+    public void theTNGGameDetailsScreenIsDisplayed() {
+
+        String aonDetails = driver.getTitle();
+        Assert.assertEquals ("The Numbers Game | Games | Massachusetts Lottery",aonDetails);
+
+    }
+
+    @When("I click the information icon on the TNG draw card")
+    public void iClickTheInformationIconOnTheTNGDrawCard() {
+        driver.findElement(By.xpath("//a[@aria-label='More info for The Numbers Game']")).click();
+    }
+
+    @Then("the left calendar arrow is in an active state")
+    public void theLeftCalendarArrowIsInAnActiveState() {
+
+        WebElement leftArrow = driver.findElement(By.xpath("//*[@id='main-content']/div/div[3]/div/div[3]/div/div[1]/button[1]"));
+        Boolean leftArrowActive = leftArrow.isDisplayed();
+        System.out.println (leftArrowActive);
+
+    }
+
+    @And("I haven't changed the date on the TNG calendar")
+    public void iHavenTChangedTheDateOnTheTNGCalendar() {
+        
+    }
+
+    @Then("the right calendar arrow on the TNG draw card is gray and inactive")
+    public void theRightCalendarArrowOnTheTNGDrawCardIsGrayAndInactive() {
+    }
+
+    @And("I have changed the TNG calendar to a previous date")
+    public void iHaveChangedTheTNGCalendarToAPreviousDate() {
+        
+    }
+
+    @Then("the right calendar arrow on the TNG draw card is in an active state")
+    public void theRightCalendarArrowOnTheTNGDrawCardIsInAnActiveState() {
+        
+    }
+
+    @And("I have not changed the TNG calendar date")
+    public void iHaveNotChangedTheTNGCalendarDate() {
+        
+    }
+
+    @Then("the TNG calendar displays the date of the most recent draw")
+    public void theTNGCalendarDisplaysTheDateOfTheMostRecentDraw() {
+        
+    }
+
+    @And("I select a previous draw date on the TNG draw card")
+    public void iSelectAPreviousDrawDateOnTheTNGDrawCard() {
+        
+        
+    }
+
+    @Then("the TNG calendar displays the selected date")
+    public void theTNGCalendarDisplaysTheSelectedDate() {
+        
+    }
+
+    @And("the TNG results for that date are displayed")
+    public void theTNGResultsForThatDateAreDisplayed() {
+        
+    }
+
+    @Then("the TNG midday drawing results are displayed for the current date")
+    public void theTNGMiddayDrawingResultsAreDisplayedForTheCurrentDate() {
+        
+    }
+
+    @Then("I am unable to select a future date")
+    public void iAmUnableToSelectAFutureDate() {
+        
+    }
+
+    @When("I open the calendar on the TNG draw card")
+    public void iOpenTheCalendarOnTheTNGDrawCard() {
+        
+    }
+
+    @And("it is {int}:{int}pm")
+    public void itIsPm(int arg0, int arg1) {
+        
+    }
+
+    @Then("the TNG draw card midday displays a pending state")
+    public void theTNGDrawCardMiddayDisplaysAPendingState() {
+        
+    }
+
+    @And("it auto updates to display the TNG midday results when they come in")
+    public void itAutoUpdatesToDisplayTheTNGMiddayResultsWhenTheyComeIn() {
+    }
+
+    @And("the evening section displays {string}")
+    public void theEveningSectionDisplays(String arg0) {
+        
+    }
+
+    @Then("the midday draw video link is not displayed while the pending state is displayed")
+    public void theMiddayDrawVideoLinkIsNotDisplayedWhileThePendingStateIsDisplayed() {
+        
+    }
+
+    @When("I click on the TNG draw video link")
+    public void iClickOnTheTNGDrawVideoLink() {
+        
+    }
+
+    @Then("the TNG draw video for that date is displayed")
+    public void theTNGDrawVideoForThatDateIsDisplayed() {
+        
+    }
+
+    @When("I click the TNG Midday prize payout link")
+    public void iClickTheTNGMiddayPrizePayoutLink() {
+        
+    }
+
+    @Then("the midday prize payout information for that date is displayed in an overlay")
+    public void theMiddayPrizePayoutInformationForThatDateIsDisplayedInAnOverlay() {
+        
+    }
+
+    @And("the draw video link auto populates once the video is available")
+    public void theDrawVideoLinkAutoPopulatesOnceTheVideoIsAvailable() {
+        
+    }
+
+    @And("the Powerball pending state is replaced with the new jackpot when the results come in")
+    public void thePowerballPendingStateIsReplacedWithTheNewJackpotWhenTheResultsComeIn() {
+        
+    }
+
+    @Then("the estimated cash option on the Powerball thrilling prizes card is replaced with the pending state")
+    public void theEstimatedCashOptionOnThePowerballThrillingPrizesCardIsReplacedWithThePendingState() {
+
+    }
+
+    @And("the pending state on the Powerball thrilling prizes card is replaced with the new estimated cash option when the results come in")
+    public void thePendingStateOnThePowerballThrillingPrizesCardIsReplacedWithTheNewEstimatedCashOptionWhenTheResultsComeIn() {
+
     }
 }
 
