@@ -1123,6 +1123,11 @@ public void iSelectTheGamesIcon () {
         String mrtUpdate = driver.findElement(By.xpath("/html/body/reach-portal/div[3]/div/div/div/div/div/h3")).getText();
         Assert.assertEquals("My Recent Tickets Update",mrtUpdate);
     }
+
+    @And("I Tap on the Draws and Instants")
+    public void iTapOnTheDrawsAndInstants() {
+        driver.findElement(By.xpath("//div[@aria-label='Games menu'] /a[@href='/games/draw-and-instants']")).click();
+    }
 }
 
 
