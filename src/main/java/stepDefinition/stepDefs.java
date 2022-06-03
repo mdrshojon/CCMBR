@@ -11,16 +11,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import java.util.concurrent.TimeUnit;
-
 public class stepDefs {
     public static WebDriver driver;
+
     @Given("that I have the MA Website open")
     public void that_i_have_the_ma_website_open() {
-        driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver","C:/Users/sssha/Desktop/Drivers/browser drivers/chromedriver.exe");
+        //CHANGE TO UR PATH
+        WebDriver driver = new ChromeDriver();
         //driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("www.https://masslottery.com/");
+        driver.get("https://www.masslottery.com/");
         System.out.println("Making sure we are at the right site!");
         String homeTitle = driver.getTitle();
         Assert.assertEquals("Home | Massachusetts Lottery", homeTitle);
@@ -28,10 +28,11 @@ public class stepDefs {
     }
     @Given("I am on the home screen")
     public void i_am_on_the_home_screen() {
-            driver = new ChromeDriver();
-            //driver = new FirefoxDriver();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("www.https://masslottery.com/");
+        System.setProperty("webdriver.chrome.driver","C:/Users/sssha/Desktop/Drivers/browser drivers/chromedriver.exe");
+        //CHANGE TO UR PATH
+        WebDriver driver = new ChromeDriver();
+        //driver = new FirefoxDriver();
+        driver.get("https://www.masslottery.com/");
         System.out.println("Making sure we are at the right site!");
         String homeTitle = driver.getTitle();
         Assert.assertEquals("Home | Massachusetts Lottery", homeTitle);
@@ -1098,6 +1099,30 @@ public void iSelectTheGamesIcon () {
     }
 
 
+    @Then("the Lucky for Life thrilling prizes card displays the estimated top prize information game details screen is displayed")
+    public void theLuckyForLifeThrillingPrizesCardDisplaysTheEstimatedTopPrizeInformationGameDetailsScreenIsDisplayed() {
+        String title = driver.getTitle();
+        Assert.assertEquals("Lucky For Life | Games | Massachusetts Lottery",title);
+        System.out.println(title);
+        throw new io.cucumber.java.PendingException();
+
+    }
+
+    @When("I tap the Lucky for Life draw results card heading")
+    public void iTapTheLuckyForLifeDrawResultsCardHeading() {
+        driver.findElement(By.xpath("//a[@aria-label='More info for Lucky for Life']")).click();
+    }
+
+    @And("I tap on My Recent Tickets")
+    public void iTapOnMyRecentTickets() {
+        driver.findElement(By.xpath("//*[@id='recent-tickets-nav-link']")).click();
+    }
+
+    @Then("My Recent Tickets Update Dialogue Box Pops Up")
+    public void myRecentTicketsUpdateDialogueBoxPopsUp() {
+        String mrtUpdate = driver.findElement(By.xpath("/html/body/reach-portal/div[3]/div/div/div/div/div/h3")).getText();
+        Assert.assertEquals("My Recent Tickets Update",mrtUpdate);
+    }
 }
 
 
