@@ -3,52 +3,32 @@
 <suite name="Mass Test Suite">
 
     <parameter name="url" value="https://www.masslottery.com/"></parameter>
-    <test name="ChromeBrowser">
+    <test name="WIN10TEST" annotations="JDK"
+          preserve-order="true">
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Windows"/>
+        <classes>
+            <class name="MyRunner.TestRunner" />
+        </classes>
+    </test> <!-- Test -->
+    <test name="WIN8TEST" annotations="JDK"
+          preserve-order="true">
         <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Windows 10"/>
         <classes>
-            <class name="header.mainNavigation.AboutTest"/>
-            <class name="header.mainNavigation.GamesTest"/>
-            <class name="header.mainNavigation.PromotionsTest"></class>
-            <class name="header.mainNavigation.ToolsTest"></class>
-            <class name="header.LogoTest"></class>
-            <class name="header.MyRecentTicketsTest"></class>
-            <class name="homepage.draw_results_cards.AllOrNothingTest"></class>
-            <class name="homepage.draw_results_cards.KenoTest"></class>
-            <class name="homepage.draw_results_cards.TheNumbersGameTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.HeadingAndNavigationTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.LuckyForLifeThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.MassCashThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.MegabucksDoublerThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.MegaMillionsThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.TheNumbersGameThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.PowerballThrillingPrizesCardTest"></class>
-            <class name="homepage.CarouselTest"></class>
-            <class name="homepage.MessageBannerTest"></class>
+            <class name="MyRunner.TestRunner" />
         </classes>
-    </test>
-    <test name="FirefoxBrowser">
-        <parameter name="browser" value="firefox"/>
+    </test> <!-- Test -->
+    <test name="MACTEST" annotations="JDK"
+          preserve-order="true">
+        <parameter name="browser" value="Microsoft Edge"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Windows 10"/>
         <classes>
-            <class name="header.mainNavigation.AboutTest"/>
-            <class name="header.mainNavigation.GamesTest"/>
-            <class name="header.mainNavigation.PromotionsTest"></class>
-            <class name="header.mainNavigation.ToolsTest"></class>
-            <class name="header.LogoTest"></class>
-            <class name="header.MyRecentTicketsTest"></class>
-            <class name="homepage.draw_results_cards.AllOrNothingTest"></class>
-            <class name="homepage.draw_results_cards.KenoTest"></class>
-            <class name="homepage.draw_results_cards.TheNumbersGameTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.HeadingAndNavigationTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.LuckyForLifeThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.MassCashThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.MegabucksDoublerThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.MegaMillionsThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.TheNumbersGameThrillingPrizesCardTest"></class>
-            <class name="homepage.thrilling_prizes_carousel.PowerballThrillingPrizesCardTest"></class>
-            <class name="homepage.CarouselTest"></class>
-            <class name="homepage.MessageBannerTest"></class>
+            <class name="MyRunner.TestRunner" />
         </classes>
-    </test>
-
+    </test> <!-- Test -->
 
 </suite>

@@ -1,19 +1,19 @@
 Feature: Tools Header
   Scenario: Claim a Prize
-    Given I have the MA website open
+    Given I am on the home screen
     When I tap on Tools  icon
     And a dropdown is displayed
     Then I select the Claim a Prize icon
     And the Claim a Prize page loads
   Scenario: Location Finder
-    Given I have the MA website open
+    Given I am on the home screen
     When I select the Tools Icon
     And a dropdown is displayed
-    And I tap on Location Finder icon
+    And  I tap on Location Finder icon
     Then the Location Finder page loads
   Scenario: Prizes Remaining
     Given I have the MA website open
-    When I tap on Tools  icon
+    When I tap on Tools icon
     And a dropdown is displayed
     And I tap on Prizes Remaining icon
     Then the Prizes Remaining page loads
@@ -22,8 +22,8 @@ Feature: Tools Header
     And I select $9999 or below from the Prize Amount dropdown
     Then the Prizes Remaining list is displayed with Game, Prize Amount, Start, Claimed, Remaining and Game Details information
   Scenario: Past Results
-    Given I have the MA website open
-    When I tap on Tools  icon
+    Given I am on the home screen
+    When I tap on Tools icon
     Then a dropdown is displayed
     When I tap on Past Results
     And the Past Results page loads

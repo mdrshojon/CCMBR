@@ -5,22 +5,18 @@ Feature: Games Header
     Given I have the MA website open
 
 
-    When I tap on Tools  icon
+    When I tap on Games Icon
 
 
     Then a dropdown is displayed
 
 
-    When I tap on Past Results
+    When I tap on Draws and Instants
 
 
-    And the Past Results page loads
+    And the Draws and Instants Page loads
 
 
-    And I select All or Nothing from the Game dropdown
-
-
-    Then the Game & Results list is displayed
   Scenario:   Pull Tabs
 
 
