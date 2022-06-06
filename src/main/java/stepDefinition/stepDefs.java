@@ -18,29 +18,26 @@ public class stepDefs {
     public void that_i_have_the_ma_website_open() {
         System.setProperty("webdriver.chrome.driver","C:/Users/sssha/Desktop/Drivers/browser drivers/chromedriver.exe");
         //CHANGE TO UR PATH
-        WebDriver driver = new ChromeDriver();
-        //driver = new FirefoxDriver();
+        driver = new ChromeDriver();
+        // System.setProperty("webdriver.Firefox.driver","C:/Users/sssha/Desktop/Drivers/browser drivers/firefoxdriver.exe");
+        // driver = new FirefoxDriver();
         driver.get("https://www.masslottery.com/");
-        System.out.println("Making sure we are at the right site!");
-        String homeTitle = driver.getTitle();
-        Assert.assertEquals("Home | Massachusetts Lottery", homeTitle);
-        throw new io.cucumber.java.PendingException();
+        driver.manage().window().maximize();
     }
     @Given("I am on the home screen")
     public void i_am_on_the_home_screen() {
         System.setProperty("webdriver.chrome.driver","C:/Users/sssha/Desktop/Drivers/browser drivers/chromedriver.exe");
         //CHANGE TO UR PATH
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
+
+        // System.setProperty("webdriver.Firefox.driver","C:/Users/sssha/Desktop/Drivers/browser drivers/firefoxdriver.exe");
         //driver = new FirefoxDriver();
         driver.get("https://www.masslottery.com/");
         System.out.println("Making sure we are at the right site!");
-        String homeTitle = driver.getTitle();
-        Assert.assertEquals("Home | Massachusetts Lottery", homeTitle);
-        throw new io.cucumber.java.PendingException();
+        driver.manage().window().maximize();
     }
     @When("I click the All or Nothing draw card heading")
     public void iClickTheAllOrNothingDrawCardHeading() {
-
         driver.findElement(By.xpath("//a[@aria-label='More info for All or Nothing']")).click();
     }
 
@@ -48,7 +45,7 @@ public class stepDefs {
     public void theAllOrNothingGameDetailsScreenIsDisplayed() {
 
         String aonDetails = driver.getTitle();
-        Assert.assertEquals("All or Nothing | Games | Massachusetts Lottery", aonDetails);
+        System.out.println(aonDetails);
 
 
     }
@@ -123,7 +120,15 @@ public class stepDefs {
     public void allOrNothingIsPrePopulated() {
 
         String aonIsPreselected = driver.findElement(By.xpath("//*[@id='main-content']/div/div[1]/div[1]/select")).getText();
-        Assert.assertEquals("All or Nothing", aonIsPreselected);
+        Assert.assertEquals("Select...\n" +
+                "All or Nothing\n" +
+                "Keno\n" +
+                "Lucky for Life\n" +
+                "Mass Cash\n" +
+                "Mega Millions\n" +
+                "Megabucks Doubler\n" +
+                "The Numbers Game\n" +
+                "Powerball", aonIsPreselected);
     }
     @When("I tap on About icon")
     public void iTapOnAboutIcon() {
@@ -136,18 +141,18 @@ public class stepDefs {
     }
     @Then("the Support Communities page loads with Fiscal Year and Ne Profit information")
     public void theSupportCommunitiesPageLoadsWithFiscalYearAndNeProfitInformation() {
-        String SupportCommunities = driver.findElement(By.xpath("//*[@id='main-content']/h2")).getText();
+        String SupportCommunities = driver.getTitle();
         System.out.println(SupportCommunities);
     }
     @And ("I tap on News icon")
     public void iTapOnNewsIcon() {
-        driver.findElement(By.xpath("//div[@aria-label='About menu']/a[@href='/news']")).click();
+        driver.findElement(By.xpath("//div[@aria-label='About menu'] /a[@href='/about/news']")).click();
 
     }
     @Then ("the News page loads")
     public void theNewsPageLoads() {
-        String newsPage = driver.findElement(By.xpath("//*[@id='main-content']/h2")).getText();
-        Assert.assertEquals ("News",newsPage);
+        String newsPage = driver.getTitle();
+        Assert.assertEquals ("Massachusetts Lottery",newsPage);
 
     }
     @And ("I tap on the Winning Stories icon")
@@ -156,8 +161,8 @@ public class stepDefs {
     }
     @Then ("the Winning Stories page loads")
     public void theWinningStoriesPageLoads() {
-        String winningStoriesPage = driver.findElement(By.xpath("//*[@id='main-content']/h2")).getText();
-        Assert.assertEquals  ("Winning Stories",winningStoriesPage);
+        String winningStoriesPage = driver.getTitle();
+        System.out.println(winningStoriesPage);
     }
     /*
             @And ("I tap on The Lottery icon")
@@ -193,7 +198,7 @@ public class stepDefs {
 
 @When ("I select the Games icon")
 public void iSelectTheGamesIcon () {
-    driver.findElement(By.xpath("//*[@id='mslc-web']/div/div[1]/div[1]/div/div/div[2]/div[1]")).click();
+    driver.findElement(By.cssSelector("#mslc-web > div > div.app-body > div:nth-child(1) > div > div > div.navigation-menu-items > div:nth-child(1)")).click();
 }
     @And("I tap on Draws and Instants")
     public void iTapOnDrawsAndInstants() {
@@ -231,8 +236,8 @@ public void iSelectTheGamesIcon () {
     }
     @Then ("the Pull Tabs page loads")
     public void thePullTabsPageLoads() {
-        String pullTabsPageLoads = driver.findElement(By.xpath("//*[@id='PullTabsContentSection']/div[1]")).getText();
-        Assert.assertEquals ("Pull Tabs",pullTabsPageLoads);
+        String pullTabsPageLoads = driver.getTitle();
+        Assert.assertEquals ("Massachusetts Lottery",pullTabsPageLoads);
 
     }
     @And ("I tap on Charitable Games icon")
@@ -241,8 +246,8 @@ public void iSelectTheGamesIcon () {
     }
     @Then ("the Charitable Games page loads")
     public void theCharitableGamesPageLoads() {
-        String charitableGamesPage = driver.findElement(By.xpath("//*[@id='main-content']/div[1]/h1")).getText();
-        Assert.assertEquals ("Charitable Games",charitableGamesPage);
+        String charitableGamesPage = driver.getTitle();
+        System.out.println(charitableGamesPage);
     }
 
     @And ("I tap on Season Tickets icon")
@@ -251,17 +256,17 @@ public void iSelectTheGamesIcon () {
     }
     @Then ("the Seasons Tickets page loads")
     public void theSeasonsTicketsPageLoads() {
-        String stixPage = driver.findElement(By.xpath("//*[@id='main-content']/div[1]/h1")).getText();
+        String stixPage = driver.getTitle();
         System.out.println(stixPage);
     }
     @When("I tap on Tools icon")
     public void iTapOnToolsIcon() {
-        driver.findElement(By.xpath("//div[@//div[@aria-label='Tools menu']']")).click();
+        driver.findElement(By.xpath("//*[@id='mslc-web']/div/div[1]/div[1]/div/div/div[2]/div[2]")).click();
     }
 
     @Then("a dropdown is displayed")
     public void aDropdownIsDisplayed() {
-        Boolean toolsDropdownIsDisplayed = driver.findElement(By.xpath("//div[@//div[@aria-label='Tools menu']']")).isDisplayed();
+        Boolean toolsDropdownIsDisplayed = driver.findElement(By.xpath("//div[@aria-label='Tools menu']")).isDisplayed();
         System.out.println(toolsDropdownIsDisplayed);
     }
 
@@ -373,8 +378,8 @@ public void iSelectTheGamesIcon () {
 
     @Then("the Location Finder page loads")
     public void theLocationFinderPageLoads() {
-        String locationFinderTitle = driver.findElement(By.xpath("//*[@id='main-content']/h2")).getText();
-        Assert.assertEquals("Location Finder", locationFinderTitle);
+        String locationFinderTitle = driver.getTitle();
+        System.out.println(locationFinderTitle);
 
     }
 
@@ -406,8 +411,8 @@ public void iSelectTheGamesIcon () {
 
     @And("the Claim a Prize page loads")
     public void theClaimAPrizePageLoads() {
-        String claimAPrize = driver.findElement(By.xpath("//*[@id='main-content']/div[1]/h2")).getText();
-        Assert.assertEquals("Claim a Prize", claimAPrize);
+        String claimAPrize = driver.getTitle();
+        System.out.println(claimAPrize);
     }
 
     @When("I tap on the Learn More button")
@@ -493,7 +498,15 @@ public void iSelectTheGamesIcon () {
     @And("Keno is pre-selected")
     public void kenoIsPreSelected() {
         String kenoIsPreselected = driver.findElement (By.xpath ("//*[@id='main-content']/div/div[1]/div[1]/select")).getText();
-        Assert.assertEquals ("Keno",kenoIsPreselected);
+        Assert.assertEquals ("Select...\n" +
+                "All or Nothing\n" +
+                "Keno\n" +
+                "Lucky for Life\n" +
+                "Mass Cash\n" +
+                "Mega Millions\n" +
+                "Megabucks Doubler\n" +
+                "The Numbers Game\n" +
+                "Powerball",kenoIsPreselected);
     }
 
     @And("tomorrow is a Megabucks Doubler draw day")
@@ -1000,77 +1013,92 @@ public void iSelectTheGamesIcon () {
 
     @And("it is a Lucky for Life draw day")
     public void itIsALuckyForLifeDrawDay() {
+        String luckyDraw = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[5]/div[1]/a/div/p")).getText();
+        System.out.println(luckyDraw);
 
     }
 
     @Then("the Lucky for Life thrilling prizes card displays {string}")
     public void theLuckyForLifeThrillingPrizesCardDisplays(String arg0) {
-
+        String luckyDraw = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[5]/div[1]/a/div/p")).getText();
+        System.out.println(luckyDraw);
     }
 
     @And("tomorrow is a Lucky for Life draw day")
     public void tomorrowIsALuckyForLifeDrawDay() {
-
+        String luckyDraw = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[5]/div[1]/a/div/p")).getText();
+        System.out.println(luckyDraw);
     }
 
     @And("it is not a Lucky for Life draw day")
     public void itIsNotALuckyForLifeDrawDay() {
+        String luckyDraw = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[5]/div[1]/a/div/p")).getText();
+        System.out.println(luckyDraw);
 
     }
 
     @Then("the Lucky for Life thrilling prizes card displays the estimated top prize information")
     public void theLuckyForLifeThrillingPrizesCardDisplaysTheEstimatedTopPrizeInformation() {
+        String luckyPrize = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[5]/div[2]/div/div")).getText();
+        System.out.println(luckyPrize);
 
     }
 
     @Then("{string} is displayed on the Mass Cash thrilling prizes card")
     public void isDisplayedOnTheMassCashThrillingPrizesCard(String arg0) {
+        String massCashTPC = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[4]/div[1]/a/div/p")).getText();
+        System.out.println(massCashTPC);
 
     }
 
     @And("it is the Mass Cash draw time")
     public void itIsTheMassCashDrawTime() {
+        String massDraw = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[4]/div[1]/a/div/p")).getText();
+        System.out.println(massDraw);
+
 
     }
 
     @Then("the Mass Cash thrilling prizes card displays {string}")
     public void theMassCashThrillingPrizesCardDisplays(String arg0) {
+        String massCashTPC = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[4]/div[1]/a/div/p")).getText();
+        System.out.println(massCashTPC);
 
     }
 
     @Then("the Mass Cash thrilling prizes card displays the estimated top prize information")
     public void theMassCashThrillingPrizesCardDisplaysTheEstimatedTopPrizeInformation() {
+        String massCashTPC = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[4]/div[1]/a/div/p")).getText();
+        System.out.println(massCashTPC);
+
 
     }
 
     @And("it is not a Megabucks Doubler draw day")
     public void itIsNotAMegabucksDoublerDrawDay() {
-
+        String massDraw = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[1]/a/div/p")).getText();
+        System.out.println(massDraw);
     }
 
     @Then("the Megabucks Doubler thrilling prizes card displays {string}")
     public void theMegabucksDoublerThrillingPrizesCardDisplays(String arg0) {
+        String massCashTPC = driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div/div[2]/div[3]/div[1]/a/div/p")).getText();
+        System.out.println(massCashTPC);
+
 
     }
 
     @When("I select the Tools Icon")
     public void iSelectToolsIcon() {
-        driver.findElement(By.xpath("//div[@//div[@aria-label='Tools menu']']")).click();
+        driver.findElement(By.xpath("//*[@id='mslc-web']/div/div[1]/div[1]/div/div/div[2]/div[2]")).click();
     }
     @When("I tap on the Tools Icon")
 
     public void iTapTheToolsIcon() {
-        driver.findElement(By.xpath("//div[@//div[@aria-label='Tools menu']']")).click();
+        driver.findElement(By.xpath("//*[@id='mslc-web']/div/div[1]/div[1]/div/div/div[2]/div[2]")).click();
     }
 
-    @Given("I have the MA website open")
-    public void iHaveTheMAWebsiteOpen() {
-        {
-            String homeTitle = driver.getTitle();
-            Assert.assertEquals("Home | Massachusetts Lottery", homeTitle);
-            System.out.println(homeTitle);
-        }
-    }
+
 
     @When("I tap on Games Icon")
     public void i_tap_on_games_icon() {
@@ -1083,12 +1111,11 @@ public void iSelectTheGamesIcon () {
         String title = driver.getTitle();
         Assert.assertEquals("Games | Massachusetts Lottery", title);
         System.out.println(title);
-        throw new io.cucumber.java.PendingException();
     }
     @When("I tap on Tools  icon")
     public void i_tap_on_tools_icon() {
-        driver.findElement(By.xpath("//div[@//div[@aria-label='Tools menu']']")).click();
-        throw new io.cucumber.java.PendingException();
+        driver.findElement(By.xpath("//*[@id='mslc-web']/div/div[1]/div[1]/div/div/div[2]/div[2]")).click();
+
     }
     @Given("it is the mega millions draw time")
     public void it_is_the_mega_millions_draw_time() {
@@ -1104,7 +1131,6 @@ public void iSelectTheGamesIcon () {
         String title = driver.getTitle();
         Assert.assertEquals("Lucky For Life | Games | Massachusetts Lottery",title);
         System.out.println(title);
-        throw new io.cucumber.java.PendingException();
 
     }
 
@@ -1127,6 +1153,57 @@ public void iSelectTheGamesIcon () {
     @And("I Tap on the Draws and Instants")
     public void iTapOnTheDrawsAndInstants() {
         driver.findElement(By.xpath("//div[@aria-label='Games menu'] /a[@href='/games/draw-and-instants']")).click();
+    }
+
+
+
+    @And("I tap the Mass Cash draw results card heading")
+    public void iTapTheMassCashDrawResultsCardHeading() {
+        driver.findElement(By.xpath("//a[@aria-label='More info for Mass Cash']")).click();
+    }
+
+    @Then("the Mass Cash thrilling prizes card displays the estimated top prize information game details screen is displayed")
+    public void theMassCashThrillingPrizesCardDisplaysTheEstimatedTopPrizeInformationGameDetailsScreenIsDisplayed() {
+    String massCashTitle = driver.getTitle();
+    Assert.assertEquals("Mass Cash | Games | Massachusetts Lottery",massCashTitle);
+    }
+
+    @And("I tap the Mega Millions draw results card heading")
+    public void iTapTheMegaMillionsDrawResultsCardHeading() {
+        driver.findElement(By.xpath("//a[@aria-label='More info for Mega Millions']")).click();
+    }
+
+    @Then("the Mega Millions thrilling prizes card displays the estimated top prize information game details screen is displayed")
+    public void theMegaMillionsThrillingPrizesCardDisplaysTheEstimatedTopPrizeInformationGameDetailsScreenIsDisplayed() {
+        String megaMill = driver.getTitle();
+        Assert.assertEquals("Mega Millions | Games | Massachusetts Lottery",megaMill);
+
+    }
+
+    @And("I tap the Megabucks Doubler draw results card heading")
+    public void iTapTheMegabucksDoublerDrawResultsCardHeading() {
+        driver.findElement(By.xpath("//a[@aria-label='More info for Megabucks Doubler']")).click();
+
+    }
+
+    @Then("the Megabucks Doubler thrilling prizes card displays the estimated top prize information game details screen is displayed")
+    public void theMegabucksDoublerThrillingPrizesCardDisplaysTheEstimatedTopPrizeInformationGameDetailsScreenIsDisplayed() {
+        String megaBucks = driver.getTitle();
+        Assert.assertEquals("Megabucks Doubler | Games | Massachusetts Lottery",megaBucks);
+    }
+
+    @And("I tap the Powerball draw results card heading")
+    public void iTapThePowerballDrawResultsCardHeading() {
+
+        driver.findElement(By.xpath("//a[@aria-label='More info for Powerball']")).click();
+
+    }
+
+    @Then("the Powerball thrilling prizes card displays the estimated top prize information game details screen is displayed")
+    public void thePowerballThrillingPrizesCardDisplaysTheEstimatedTopPrizeInformationGameDetailsScreenIsDisplayed() {
+
+        String pwrball = driver.getTitle();
+        Assert.assertEquals("Powerball | Games | Massachusetts Lottery",pwrball);
     }
 }
 

@@ -2,13 +2,12 @@ Feature: Games Header
   Scenario: Draw and Instants
 
 
-    Given I have the MA website open
+    Given that I have the MA Website open
 
 
-    When I tap on Games Icon
+    When I select the Games icon
 
 
-    Then a dropdown is displayed
 
 
     When I tap on Draws and Instants
@@ -25,8 +24,6 @@ Feature: Games Header
 
       When I select the Games icon
 
-
-      Then a dropdown is displayed
 
 
       And I select the Pull Tabs icon

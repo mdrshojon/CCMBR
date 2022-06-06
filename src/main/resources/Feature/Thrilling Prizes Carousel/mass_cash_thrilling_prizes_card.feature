@@ -7,7 +7,7 @@ Feature: Mass Cash Thrilling Prizes Card
     Then "drawing today, 9:47pm" is displayed on the Mass Cash thrilling prizes card
 
   Scenario: MC drawing closed text
-    Given I am on the home screen
+    Given that I have the MA Website open
     And it is the Mass Cash draw time
     Then the Mass Cash thrilling prizes card displays "drawing tomorrow, 9:47pm"
 

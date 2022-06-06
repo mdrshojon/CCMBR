@@ -12,7 +12,7 @@ Feature: Tools Header
     And  I tap on Location Finder icon
     Then the Location Finder page loads
   Scenario: Prizes Remaining
-    Given I have the MA website open
+    Given that I have the MA Website open
     When I tap on Tools icon
     And a dropdown is displayed
     And I tap on Prizes Remaining icon

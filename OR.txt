@@ -287,7 +287,7 @@ CALANDER
     WebElement environmentalImpact1;
 
     //News
-    @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/news']"))
+    @FindBy (xpath =("//div[@aria-label='About menu']/a[@href='/news']//div[@aria-label='About menu']/a[@href='/news']"))
     WebElement news1;
 
     @FindBy (xpath =("//div[@class='footer-links-container']//a[@href='/about/support-communities']"))
